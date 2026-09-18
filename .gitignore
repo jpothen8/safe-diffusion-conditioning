@@ -23,6 +23,8 @@ records/*install*.json
 records/*report*.json
 records/host.json
 records/replication_host.json
+records/*.yaml
+results/**/*.svg
 results/*reproduction*/
 .env
 .env.*
