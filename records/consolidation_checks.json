@@ -1,0 +1,17 @@
+{
+  "Walker2d": {
+    "base_bitwise_equal": true,
+    "refinement_bitwise_equal": true,
+    "bayesfp_and_cloud_bitwise_equal": true,
+    "native_rollout_bitwise_equal": true
+  },
+  "HalfCheetah": {
+    "base_bitwise_equal": true,
+    "refinement_bitwise_equal": true,
+    "bayesfp_and_cloud_bitwise_equal": true,
+    "native_rollout_bitwise_equal": true
+  },
+  "refusals_explicit_and_first_feasible_correct": true,
+  "global_projection_matches_frozen_implementation": true,
+  "passed": true
+}

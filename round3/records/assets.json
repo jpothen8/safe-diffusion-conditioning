@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://arxiv.org/html/2606.21014v1",
+    "path": "records/bayesfp.html",
+    "bytes": 917575,
+    "sha256": "96b83ddba27487bc6f9c248f5df1ec1d9bad35cb217b5a5b0e2be8e5fba8efe9"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2606.21014v1",
+    "path": "records/bayesfp.pdf",
+    "bytes": 3895447,
+    "sha256": "478f5d26c2161ca123855ba464487e12c56d9b70086649bff5dde75cca147e78"
+  },
+  {
+    "url": "https://api.github.com/search/repositories?q=BayesFP",
+    "path": "records/bayesfp_repository_search.json",
+    "bytes": 5295,
+    "sha256": "e95d0aa259dde48453471252f92c5d791fb423f073f5711aa5361f35a22ae0d3"
+  },
+  {
+    "url": "https://huggingface.co/farama-minari/Walker2d-v5-SAC-expert/resolve/2b0ab400beed313a86d84bd82a6e120aa89a61e3/README.md",
+    "path": "records/Walker2d-v5-SAC-expert_README.md",
+    "bytes": 772,
+    "sha256": "684eacfacd2ef3f2e560b2eb461574a1edb69e806e4d872005d9f15810674041",
+    "repo": "farama-minari/Walker2d-v5-SAC-expert",
+    "revision": "2b0ab400beed313a86d84bd82a6e120aa89a61e3",
+    "license": "Not declared in inspected metadata"
+  },
+  {
+    "url": "https://huggingface.co/farama-minari/Walker2d-v5-SAC-expert/resolve/2b0ab400beed313a86d84bd82a6e120aa89a61e3/walker2d-v5-SAC-expert.zip",
+    "path": "assets/Walker2d-v5-SAC-expert.zip",
+    "bytes": 3242595,
+    "sha256": "1aa916f8baa4d1ff8a2f03e76acef5d44cdba60a4ab0b4337dda2aa55135c0a6",
+    "repo": "farama-minari/Walker2d-v5-SAC-expert",
+    "revision": "2b0ab400beed313a86d84bd82a6e120aa89a61e3",
+    "license": "Not declared in inspected metadata"
+  },
+  {
+    "url": "https://huggingface.co/farama-minari/Walker2d-v5-SAC-medium/resolve/34849cc1de5a527889798837a744dd55c52edef6/README.md",
+    "path": "records/Walker2d-v5-SAC-medium_README.md",
+    "bytes": 773,
+    "sha256": "42a85cf9dd762aae193d13dbd485df27f59b11a68389bd84f5327f11ba039d66",
+    "repo": "farama-minari/Walker2d-v5-SAC-medium",
+    "revision": "34849cc1de5a527889798837a744dd55c52edef6",
+    "license": "Not declared in inspected metadata"
+  },
+  {
+    "url": "https://huggingface.co/farama-minari/Walker2d-v5-SAC-medium/resolve/34849cc1de5a527889798837a744dd55c52edef6/walker2d-v5-SAC-medium.zip",
+    "path": "assets/Walker2d-v5-SAC-medium.zip",
+    "bytes": 3242585,
+    "sha256": "57e909eed1b99e22e520f032bc6a69c096957059a822709b9af5b47ebc7afc7c",
+    "repo": "farama-minari/Walker2d-v5-SAC-medium",
+    "revision": "34849cc1de5a527889798837a744dd55c52edef6",
+    "license": "Not declared in inspected metadata"
+  },
+  {
+    "url": "https://huggingface.co/farama-minari/HalfCheetah-v5-SAC-expert/resolve/8ac63b9fd8aa94c9c637a928ce1147600403d3d4/README.md",
+    "path": "records/HalfCheetah-v5-SAC-expert_README.md",
+    "bytes": 786,
+    "sha256": "74b5707f88e743936859bf5e3e0efe39a6f7738d533c84c9e76a4b2a40b75e7f",
+    "repo": "farama-minari/HalfCheetah-v5-SAC-expert",
+    "revision": "8ac63b9fd8aa94c9c637a928ce1147600403d3d4",
+    "license": "Not declared in inspected metadata"
+  },
+  {
+    "url": "https://huggingface.co/farama-minari/HalfCheetah-v5-SAC-expert/resolve/8ac63b9fd8aa94c9c637a928ce1147600403d3d4/halfcheetah-v5-sac-expert.zip",
+    "path": "assets/HalfCheetah-v5-SAC-expert.zip",
+    "bytes": 3239732,
+    "sha256": "b6c58809924077a8c2607f17965040611e58731c554c72f1918343be24284806",
+    "repo": "farama-minari/HalfCheetah-v5-SAC-expert",
+    "revision": "8ac63b9fd8aa94c9c637a928ce1147600403d3d4",
+    "license": "Not declared in inspected metadata"
+  },
+  {
+    "url": "https://huggingface.co/farama-minari/HalfCheetah-v5-SAC-medium/resolve/55b89163983483278749c84454776af108316688/README.md",
+    "path": "records/HalfCheetah-v5-SAC-medium_README.md",
+    "bytes": 786,
+    "sha256": "0d318b001eadc19bbc946b3acc8ac89d25eda1559822da62435d7a0e10abcf32",
+    "repo": "farama-minari/HalfCheetah-v5-SAC-medium",
+    "revision": "55b89163983483278749c84454776af108316688",
+    "license": "Not declared in inspected metadata"
+  },
+  {
+    "url": "https://huggingface.co/farama-minari/HalfCheetah-v5-SAC-medium/resolve/55b89163983483278749c84454776af108316688/halfcheetah-v5-sac-medium.zip",
+    "path": "assets/HalfCheetah-v5-SAC-medium.zip",
+    "bytes": 3239734,
+    "sha256": "d3d54f4b4062cb4c368338c1fbd4e69252179c2b29f4e1ee15d48489a151546d",
+    "repo": "farama-minari/HalfCheetah-v5-SAC-medium",
+    "revision": "55b89163983483278749c84454776af108316688",
+    "license": "Not declared in inspected metadata"
+  },
+  {
+    "url": "https://huggingface.co/sb3/td3-MountainCarContinuous-v0/resolve/ff74eb996b2b2e29e9bdbcc93ea1da5135aa7614/README.md",
+    "path": "records/td3-MountainCarContinuous-v0_README.md",
+    "bytes": 1797,
+    "sha256": "aa6e7295e70789271ab3f7dfe04d69bd661de10fefdc5b2623ee0308d5989fd6",
+    "repo": "sb3/td3-MountainCarContinuous-v0",
+    "revision": "ff74eb996b2b2e29e9bdbcc93ea1da5135aa7614",
+    "license": "Not declared in inspected metadata"
+  },
+  {
+    "url": "https://huggingface.co/sb3/td3-MountainCarContinuous-v0/resolve/ff74eb996b2b2e29e9bdbcc93ea1da5135aa7614/td3-MountainCarContinuous-v0.zip",
+    "path": "assets/td3-MountainCarContinuous-v0.zip",
+    "bytes": 5899497,
+    "sha256": "9d2116225327ae1b3c8b6b7f4866caa482cfa4c5b7ba7169cb6e38ad84a5f4d3",
+    "repo": "sb3/td3-MountainCarContinuous-v0",
+    "revision": "ff74eb996b2b2e29e9bdbcc93ea1da5135aa7614",
+    "license": "Not declared in inspected metadata"
+  }
+]

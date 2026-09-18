@@ -1,0 +1,89 @@
+[
+  {
+    "url": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/td3-Pendulum-v1/data",
+    "path": "records/td3-Pendulum-v1/data",
+    "sha256": "66d4e3ee9650c1fefa72a8c88d1d7cbd8aeace1fa4c9927a3c959e5326f9f8f9"
+  },
+  {
+    "url": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/td3-Pendulum-v1/system_info.txt",
+    "path": "records/td3-Pendulum-v1/system_info.txt",
+    "sha256": "fcab35536e952bf2bf1ae9a5fbcd370cdb2ba8f08de1b00b581142881c8ae339"
+  },
+  {
+    "url": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/td3-Pendulum-v1/_stable_baselines3_version",
+    "path": "records/td3-Pendulum-v1/_stable_baselines3_version",
+    "sha256": "5cf937551d77e87c76ca139cfa3ea733fca631de02639ff41d864c518711fc33"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Walker2d-v3/resolve/82149cc39deff447604a2af02e735af3f0f9521a/sac-Walker2d-v3/data",
+    "path": "records/sac-Walker2d-v3/data",
+    "sha256": "e50b375cc0d504decf3628798e9e9e06656aade4aaf5d2bf46ad6879c5b1bf21"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Walker2d-v3/resolve/82149cc39deff447604a2af02e735af3f0f9521a/sac-Walker2d-v3/system_info.txt",
+    "path": "records/sac-Walker2d-v3/system_info.txt",
+    "sha256": "fcab35536e952bf2bf1ae9a5fbcd370cdb2ba8f08de1b00b581142881c8ae339"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Walker2d-v3/resolve/82149cc39deff447604a2af02e735af3f0f9521a/sac-Walker2d-v3/_stable_baselines3_version",
+    "path": "records/sac-Walker2d-v3/_stable_baselines3_version",
+    "sha256": "5cf937551d77e87c76ca139cfa3ea733fca631de02639ff41d864c518711fc33"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Humanoid-v3/resolve/45673ecd6008435dbded233341b344057d1c3a61/sac-Humanoid-v3/data",
+    "path": "records/sac-Humanoid-v3/data",
+    "sha256": "bb2dbaccbd91b86fec283a82c7d09ed10685d9cbd8d4c93701cfa63fee9478d9"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Humanoid-v3/resolve/45673ecd6008435dbded233341b344057d1c3a61/sac-Humanoid-v3/system_info.txt",
+    "path": "records/sac-Humanoid-v3/system_info.txt",
+    "sha256": "fcab35536e952bf2bf1ae9a5fbcd370cdb2ba8f08de1b00b581142881c8ae339"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Humanoid-v3/resolve/45673ecd6008435dbded233341b344057d1c3a61/sac-Humanoid-v3/_stable_baselines3_version",
+    "path": "records/sac-Humanoid-v3/_stable_baselines3_version",
+    "sha256": "5cf937551d77e87c76ca139cfa3ea733fca631de02639ff41d864c518711fc33"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/gym/v0.21.0/gym/envs/mujoco/humanoid_v3.py",
+    "path": "records/gym_v0.21.0/humanoid_v3.py",
+    "sha256": "a332dc3bfc5abeddba15946f8931f64639d974f92646ec5c712b1b99de244abd"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/gym/v0.21.0/gym/envs/mujoco/walker2d_v3.py",
+    "path": "records/gym_v0.21.0/walker2d_v3.py",
+    "sha256": "5256295710e694fc00e507fdce879e2e0df19e1489319d0a65ba8d95e5ae7d8d"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/gym/v0.21.0/gym/envs/mujoco/assets/humanoid.xml",
+    "path": "records/gym_v0.21.0/assets/humanoid.xml",
+    "sha256": "28ddce0cefce55d9d7f1a54eb4a1f229fda1d4630828a95871e8ae620e367e7f"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/gym/v0.21.0/gym/envs/mujoco/assets/walker2d.xml",
+    "path": "records/gym_v0.21.0/assets/walker2d.xml",
+    "sha256": "88dff0833ee2c6ec30854c7616b86d2ce5bd5b26ea0cd6367768c5aca4700296"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/gym/v0.21.0/gym/envs/classic_control/pendulum.py",
+    "path": "records/gym_v0.21.0/pendulum.py",
+    "sha256": "03091eb843b437670434ee47f18ce65d7b39237631c6aca67ee59d4c55cf0347"
+  },
+  {
+    "url": "https://minari.farama.org/main/datasets/mujoco/walker2d/expert-v0/",
+    "path": "records/minari_walker_expert.html",
+    "sha256": "4d2c6b18404289c9a96e92b6ddbd152e5e9bafbf19f810d8b28284c3801c5102"
+  },
+  {
+    "url": "https://minari.farama.org/main/datasets/mujoco/humanoid/expert-v0/",
+    "path": "records/minari_humanoid_expert.html",
+    "sha256": "5024fe8bdbf06dc62c44b940fefebbfffeee0b71cd552aba3cc813dc5615d2d9"
+  },
+  {
+    "url": "https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip",
+    "status": 200,
+    "bytes": "30988725",
+    "downloaded": false,
+    "license": "No separate dataset license located in the inspected release listing."
+  }
+]

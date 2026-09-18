@@ -1,0 +1,67 @@
+{
+  "smoke": [
+    {
+      "seed": 0,
+      "return": -127.53245886800981
+    },
+    {
+      "seed": 1,
+      "return": -0.8570258774319615
+    },
+    {
+      "seed": 2,
+      "return": -122.85167079955976
+    },
+    {
+      "seed": 3,
+      "return": -232.4288184063164
+    },
+    {
+      "seed": 4,
+      "return": -244.56713543982067
+    },
+    {
+      "seed": 5,
+      "return": -114.48838806810522
+    },
+    {
+      "seed": 6,
+      "return": -0.8990958206953988
+    },
+    {
+      "seed": 7,
+      "return": -125.38461092096367
+    },
+    {
+      "seed": 8,
+      "return": -128.44871361523053
+    },
+    {
+      "seed": 9,
+      "return": -246.05050569131888
+    }
+  ],
+  "smoke_mean_return": -134.35084235074524,
+  "max_dynamics_error": 0.0,
+  "modes": [
+    {
+      "mode": 0,
+      "safe_fraction": 0.0,
+      "expert_return": -365.4336433777413,
+      "common_return": -365.4336433777413,
+      "projected_return": -367.10885130361044,
+      "action_min": -2.0,
+      "action_max": 1.9998326301574707
+    },
+    {
+      "mode": 1,
+      "safe_fraction": 0.0,
+      "expert_return": -365.4273371184798,
+      "common_return": -365.8391247539944,
+      "projected_return": -513.7702440318094,
+      "action_min": -1.999446153640747,
+      "action_max": 2.0
+    }
+  ],
+  "label": "preliminary non-diffusion expert probe"
+}

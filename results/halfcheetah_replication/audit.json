@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "locked_input_hashes_checked": 16,
+  "independent_checkpoints": 8,
+  "models": [
+    {
+      "seed": 120100,
+      "checkpoint_sha256": "6e6e8feaac4b5ed1cd215db8baa3beda16e401ca81e6b1d78723eacfb8949044",
+      "refusals": 0
+    },
+    {
+      "seed": 120101,
+      "checkpoint_sha256": "9d8f98fda589d1aea1c585f91916d01bdf02c260115024837a763fce8388c5f0",
+      "refusals": 0
+    },
+    {
+      "seed": 120102,
+      "checkpoint_sha256": "ac11937bf5dec5fef6cb5fab593b24d5f0249d68fabba23301d283ca457c3ce0",
+      "refusals": 0
+    },
+    {
+      "seed": 120103,
+      "checkpoint_sha256": "49f348aa2360f2d777066d200dc58ec5ef5d24b4a1a82f38f51325f2bf73a627",
+      "refusals": 0
+    },
+    {
+      "seed": 120104,
+      "checkpoint_sha256": "139c167dc690fdc1f089333a70a62e8ab5a0fd9064fe00e32e0872c4ad60821d",
+      "refusals": 0
+    },
+    {
+      "seed": 120105,
+      "checkpoint_sha256": "df3fd416cc775da340c1a6f70f205e5fae914504ea5cb360aff02cd1d6163e3e",
+      "refusals": 0
+    },
+    {
+      "seed": 120106,
+      "checkpoint_sha256": "fc05690b1057b194daa2d27e2b9361dcc61b89adecd7a3537eac55deb7660495",
+      "refusals": 0
+    },
+    {
+      "seed": 120107,
+      "checkpoint_sha256": "bb9d7e36d0f0a4d0d926e5804a6b5b4c9ecaf3cbbe00398087e583eb3b48d917",
+      "refusals": 0
+    }
+  ],
+  "all_selections_and_global_projections_verified": true,
+  "train_only_normalizers_exact": true,
+  "crossed_bootstrap_independently_verified": true,
+  "native_replay_max_reward_error_by_arm": {
+    "conditional": 0.0,
+    "projection": 0.0,
+    "refinement": 0.0,
+    "bayesfp": 0.0,
+    "bayesfp_projected": 0.0
+  }
+}

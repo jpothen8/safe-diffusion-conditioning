@@ -1,0 +1,10 @@
+{
+  "analytic_gradient_error": 7.450580596923828e-09,
+  "uniform_resampling_preserves_population": true,
+  "one_hot_resampling_correct": true,
+  "Walker2d_unclipped_scheduler_overshoot": 1.3947486877441406e-05,
+  "Walker2d_zero_guidance_with_identical_postprocessing_bitwise_equal": true,
+  "HalfCheetah_unclipped_scheduler_overshoot": 1.3947486877441406e-05,
+  "HalfCheetah_zero_guidance_with_identical_postprocessing_bitwise_equal": true,
+  "passed": true
+}

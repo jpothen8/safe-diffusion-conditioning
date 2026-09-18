@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+assets/*.ckpt
+vendor/
+*.egg-info/
+.pytest_cache/
+round3/.venv/
+results/**/policy.pt

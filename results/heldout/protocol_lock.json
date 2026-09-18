@@ -1,0 +1,55 @@
+{
+  "utc": "2026-09-14T18:27:53Z",
+  "config": {
+    "development_seeds": [
+      200000,
+      200001,
+      200002,
+      200003,
+      200004,
+      200005
+    ],
+    "evaluation_seeds": [
+      300000,
+      300001,
+      300002,
+      300003,
+      300004,
+      300005,
+      300006,
+      300007,
+      300008,
+      300009,
+      300010,
+      300011
+    ],
+    "replicates": 8,
+    "proposal_budget_per_replicate": 64,
+    "speed_caps": [
+      300,
+      400,
+      600
+    ],
+    "primary_speed_cap": 400,
+    "control_period_seconds": 0.1,
+    "physics_period_seconds": 0.01,
+    "planning_steps": 8,
+    "execution_steps": 8,
+    "total_evaluation_steps": 80,
+    "odd_seed_warmup_steps": 16,
+    "minimum_useful_effect": 0.05,
+    "bootstrap_seed": 72401,
+    "bootstrap_replicates": 10000,
+    "boundary_band_pixels_per_second": 1.0,
+    "route_lateral_threshold_pixels": 10.0,
+    "rotation_threshold_radians": 0.05,
+    "feasibility_tolerance": 1e-05
+  },
+  "sha256": {
+    "configs/pilot.json": "58a6157956750cece9f172b7a1c75fe64f86f58e60592f9dfba36823ade68a6f",
+    "FIRST_EXPERIMENT.md": "94ca11ad1aa4b37498ccc34c2d0ee818ab334f0cd889da87a4c3601d1d959ae3",
+    "src/evaluate.py": "c7e4f91c8671602485fa7558cd70365884adb6ae1d417ebf2898a0c656253cc3",
+    "src/core.py": "c51eb79c3ec6ec555be4f3aa11eaadf0b3dff837d51954d1c8be76a35216143d",
+    "src/safety.py": "6f46b390faa8fead8ba4c891e7f89ec00cfbe26bec24bd259e9fdc4e1dcea78c"
+  }
+}

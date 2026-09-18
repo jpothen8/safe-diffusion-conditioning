@@ -1,0 +1,197 @@
+{
+  "300": {
+    "requested_pairs": 96,
+    "complete_pairs": 96,
+    "paired_difference": -0.0018188403118377923,
+    "paired_cluster_CI95": [
+      -0.0037443019168500844,
+      -0.00024980445829316894
+    ],
+    "missing_outcome_bounds": [
+      -0.0018188403118377923,
+      -0.0018188403118377923
+    ],
+    "refusals": 0,
+    "projection_failures": 0,
+    "logical_proposals": 174,
+    "generated_proposals": 6144,
+    "solver_seconds": 0.04742236528545618,
+    "projection_changed": 20,
+    "conditional": {
+      "outputs": 96,
+      "unsafe": 0,
+      "mean_reward_outputs": 0.12465725061590549,
+      "operational_score": 0.12465725061590549,
+      "mean_max_reward": 0.31817276058802685,
+      "completions": 0,
+      "boundary_count": 0,
+      "continuation_unsafe": 45,
+      "model_max_error": 1.2931877790833823e-12,
+      "mean_chunk_reward": 0.032013528655277734,
+      "route_counts": {
+        "right": 59,
+        "left": 35,
+        "center": 2
+      },
+      "rotation_counts": {
+        "neutral": 78,
+        "negative": 17,
+        "positive": 1
+      },
+      "mean_roughness": 20.67454942067464
+    },
+    "projection": {
+      "outputs": 96,
+      "unsafe": 0,
+      "mean_reward_outputs": 0.12647609092774328,
+      "operational_score": 0.12647609092774328,
+      "mean_max_reward": 0.3241691823016038,
+      "completions": 0,
+      "boundary_count": 20,
+      "continuation_unsafe": 42,
+      "model_max_error": 1.2931877790833823e-12,
+      "mean_chunk_reward": 0.032013528655277734,
+      "route_counts": {
+        "right": 59,
+        "left": 35,
+        "center": 2
+      },
+      "rotation_counts": {
+        "neutral": 78,
+        "negative": 17,
+        "positive": 1
+      },
+      "mean_roughness": 21.042302633448617
+    }
+  },
+  "400": {
+    "requested_pairs": 96,
+    "complete_pairs": 96,
+    "paired_difference": 4.1063164591013456e-05,
+    "paired_cluster_CI95": [
+      0.0,
+      0.0001231894937730398
+    ],
+    "missing_outcome_bounds": [
+      4.1063164591013456e-05,
+      4.1063164591013456e-05
+    ],
+    "refusals": 0,
+    "projection_failures": 0,
+    "logical_proposals": 99,
+    "generated_proposals": 6144,
+    "solver_seconds": 0.010330701479688287,
+    "projection_changed": 3,
+    "conditional": {
+      "outputs": 96,
+      "unsafe": 0,
+      "mean_reward_outputs": 0.12068633055939015,
+      "operational_score": 0.12068633055939015,
+      "mean_max_reward": 0.2943758785587184,
+      "completions": 0,
+      "boundary_count": 0,
+      "continuation_unsafe": 9,
+      "model_max_error": 1.2931877790833823e-12,
+      "mean_chunk_reward": 0.032013528655277734,
+      "route_counts": {
+        "right": 59,
+        "left": 35,
+        "center": 2
+      },
+      "rotation_counts": {
+        "neutral": 78,
+        "negative": 17,
+        "positive": 1
+      },
+      "mean_roughness": 21.30606633424759
+    },
+    "projection": {
+      "outputs": 96,
+      "unsafe": 0,
+      "mean_reward_outputs": 0.12064526739479915,
+      "operational_score": 0.12064526739479915,
+      "mean_max_reward": 0.29461497337791126,
+      "completions": 0,
+      "boundary_count": 3,
+      "continuation_unsafe": 9,
+      "model_max_error": 1.2931877790833823e-12,
+      "mean_chunk_reward": 0.032013528655277734,
+      "route_counts": {
+        "right": 59,
+        "left": 35,
+        "center": 2
+      },
+      "rotation_counts": {
+        "neutral": 78,
+        "negative": 17,
+        "positive": 1
+      },
+      "mean_roughness": 21.35536983089194
+    }
+  },
+  "600": {
+    "requested_pairs": 96,
+    "complete_pairs": 96,
+    "paired_difference": 1.4456028966473392e-19,
+    "paired_cluster_CI95": [
+      -1.0119220276531375e-18,
+      1.5901631863120731e-18
+    ],
+    "missing_outcome_bounds": [
+      1.4456028966473392e-19,
+      1.4456028966473392e-19
+    ],
+    "refusals": 0,
+    "projection_failures": 0,
+    "logical_proposals": 96,
+    "generated_proposals": 6144,
+    "solver_seconds": 0.002251317724585533,
+    "projection_changed": 0,
+    "conditional": {
+      "outputs": 96,
+      "unsafe": 0,
+      "mean_reward_outputs": 0.12672849744038647,
+      "operational_score": 0.12672849744038647,
+      "mean_max_reward": 0.3356465373159347,
+      "completions": 0,
+      "boundary_count": 0,
+      "continuation_unsafe": 1,
+      "model_max_error": 1.2931877790833823e-12,
+      "mean_chunk_reward": 0.032013528655277734,
+      "route_counts": {
+        "right": 59,
+        "left": 35,
+        "center": 2
+      },
+      "rotation_counts": {
+        "neutral": 78,
+        "negative": 17,
+        "positive": 1
+      },
+      "mean_roughness": 21.401515185832977
+    },
+    "projection": {
+      "outputs": 96,
+      "unsafe": 0,
+      "mean_reward_outputs": 0.12672849744038647,
+      "operational_score": 0.12672849744038647,
+      "mean_max_reward": 0.3356465373159347,
+      "completions": 0,
+      "boundary_count": 0,
+      "continuation_unsafe": 1,
+      "model_max_error": 1.2931877790833823e-12,
+      "mean_chunk_reward": 0.032013528655277734,
+      "route_counts": {
+        "right": 59,
+        "left": 35,
+        "center": 2
+      },
+      "rotation_counts": {
+        "neutral": 78,
+        "negative": 17,
+        "positive": 1
+      },
+      "mean_roughness": 21.401515185832977
+    }
+  }
+}

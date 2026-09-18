@@ -1,0 +1,59 @@
+{
+  "local_assets": [
+    {
+      "path": "assets/td3-Pendulum-v1.zip",
+      "source_url_or_procedure": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/td3-Pendulum-v1.zip",
+      "revision": "f200e871a887a68eec2265f1c6ff366cfbf40ea8",
+      "license": "No weights license declared in inspected model card/metadata; SB3 code license does not imply a weights grant.",
+      "bytes": 5920968,
+      "sha256": "9597e5a20703d74786afc8e5f48d98b378816ad8743ee62e2a278483bc565823"
+    },
+    {
+      "path": "assets/pendulum_diffusion.pt",
+      "source_url_or_procedure": "Local training: src/pendulum_train.py via scripts/train_pendulum_recorded.py",
+      "revision": "seed62000-data_seed62001-training",
+      "license": "Locally generated checkpoint; no separate license assigned; derived from the recorded public expert.",
+      "bytes": 592453,
+      "sha256": "ad34c0f1f53bb66cdc9379b5033b06a466cfeb97742a0d6100714ccbf0b35e99"
+    },
+    {
+      "path": "results/pendulum/demonstrations.npz",
+      "source_url_or_procedure": "Local complete-episode simulation of public expert and reflected expert",
+      "revision": "seed62000",
+      "license": "Locally generated simulation data; no separate license assigned.",
+      "bytes": 1848890,
+      "sha256": "e3f2cc35839c9d10b649a5f4ead60fd98d8765717cedfeee7039a5d946597917"
+    },
+    {
+      "path": "records/pendulum_initial_dynamics.py",
+      "source_url_or_procedure": "Local original data-collection implementation",
+      "revision": "preserved before evaluation precision correction",
+      "license": "Locally authored code; retained to reproduce the exact collected demonstrations.",
+      "bytes": 2135,
+      "sha256": "7edd2355a9492c5d5da400158acb2b502484deb169e26f02a473e410f401cc88"
+    }
+  ],
+  "user_repository": {
+    "url": "https://github.com/CadenzaCoda/safe-diffusion-mujoco",
+    "revision": "e2b2546d948c04f63ae7232933c768956872a94f",
+    "source_hashes": "records/user_repository_hashes.json",
+    "license": "No LICENSE file found at inspected revision. No license inferred.",
+    "use": "Read-only research context. Contains expert acquisition/evaluation code; not the refinement implementation."
+  },
+  "environment": {
+    "gym": "0.26.2",
+    "pendulum_id": "Pendulum-v1",
+    "dependencies": "requirements.lock.txt",
+    "host": "records/host.json"
+  },
+  "verification": {
+    "training_reproduced_checkpoint_sha256": "ad34c0f1f53bb66cdc9379b5033b06a466cfeb97742a0d6100714ccbf0b35e99",
+    "training_reproduced_demonstrations_sha256": "e3f2cc35839c9d10b649a5f4ead60fd98d8765717cedfeee7039a5d946597917"
+  },
+  "primary_sources": [
+    "https://gymnasium.farama.org/environments/classic_control/pendulum/",
+    "https://github.com/openai/gym/blob/0.26.2/gym/envs/classic_control/pendulum.py",
+    "https://huggingface.co/sb3/td3-Pendulum-v1",
+    "https://github.com/huggingface/diffusers/blob/v0.11.1/src/diffusers/schedulers/scheduling_ddpm.py"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "states": 32,
+  "replicates": 4,
+  "budget": 128,
+  "state_seed": 103000,
+  "proposal_seed": 104000,
+  "refinement_seed": 105000,
+  "bayesfp_seed": 106000,
+  "bootstrap_seed": 107000,
+  "bootstrap_draws": 20000,
+  "evaluation_seconds": 4.0,
+  "warmup_seconds": 1.0,
+  "bayesfp_particles": 32,
+  "tasks": {
+    "Walker2d": {
+      "caps": [
+        0.72,
+        0.75
+      ],
+      "bayesfp_strengths": {
+        "0.72": 100,
+        "0.75": 20
+      },
+      "minimum_useful_return_gain": 168.93711798856376
+    },
+    "HalfCheetah": {
+      "caps": [
+        0.7,
+        0.72
+      ],
+      "bayesfp_strengths": {
+        "0.7": 100,
+        "0.72": 20
+      },
+      "minimum_useful_return_gain": 26.1882030049912
+    }
+  }
+}

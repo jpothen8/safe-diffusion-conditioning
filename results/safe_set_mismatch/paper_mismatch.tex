@@ -1,0 +1,27 @@
+\paragraph{Exploratory sensitivity to safe-set error.}
+Using all eight frozen HalfCheetah policies, we re-evaluated each of the 2,048
+outputs per arm against nearby effort caps, without changing its trajectory
+or reward. This is a retrospective uniform-bias probe, not an evaluation of a
+learned estimator. With a true cap 0.1\% below the supplied cap, exact global
+projection violated the true cap in 17.53\% of outputs, exact conditioning in
+0.88\%, finite refinement in 6.79\%, and repaired BayesFP in 16.11\%.
+At 1\% error these rates were 22.75\%, 8.20\%, 24.46\%, and 21.04\%, respectively.
+The conditioning--projection difference at 1\% was $-14.55$ percentage points
+(exploratory 95\% crossed model/state bootstrap interval $[-17.77,-11.52]$);
+the refinement--projection difference was $+1.71$ points ($[-3.37,6.79]$).
+Thus finite refinement did not consistently inherit the reference's robustness.
+
+As an uncertainty-aware control, we executed another 4,096 trajectories using
+projection and conditioning on a fixed 1\%-smaller set. At 1\% bias this is the
+true set, and its projection is the exact oracle projection. Both controls had
+zero violations and zero rejection-budget failures. The margin changed projection
+return by $+1.33$ points ($[-1.50,4.25]$), and conditioning on the same smaller set
+differed from projection by $+0.43$ ($[-4.34,5.26]$). This control requires a valid
+error bound supplied equally to both methods. It prevents attributing a benefit
+to conditioning that conservative projection can obtain without detectable
+task-quality loss. The outcomes are normalized effort-envelope violations,
+not collisions: at 1\% bias the largest excess for the original hard-filtered
+arms was at most 0.007201, with numerical tolerance $10^{-6}$.
+These findings motivate testing geometric or dynamical estimator errors and
+calibrated-margin baselines; they do not identify the dominant cause of harm
+in general robotics tasks.

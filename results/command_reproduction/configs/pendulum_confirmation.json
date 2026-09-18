@@ -1,0 +1,17 @@
+{
+  "phase": "confirmation",
+  "states": 64,
+  "replicates": 8,
+  "budget": 64,
+  "state_seed": 71000,
+  "proposal_seed": 72000,
+  "refinement_seed": 73000,
+  "bootstrap_seed": 74000,
+  "bootstrap_draws": 20000,
+  "minimum_useful_return_gain": 25,
+  "horizon_controls": 12,
+  "episode_controls": 200,
+  "control_seconds": 0.05,
+  "refinement_schedule": "annealed",
+  "examples": [{"name":"negative", "lower":-2, "upper":0}, {"name":"positive", "lower":0, "upper":2}]
+}

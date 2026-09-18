@@ -1,0 +1,1745 @@
+{
+  "snapshot": "400013_048",
+  "seconds": 0.5153288280125707,
+  "settings": [
+    {
+      "setting": {
+        "type": "speed",
+        "cap": 150
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "speed",
+        "cap": 250
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "speed",
+        "cap": 350
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 10,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 328.38644082861293
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 25,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 343.38644082861293
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 50,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 368.38644082861293
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 100,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 418.38644082861293
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 45,
+        "offset": 10,
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865475
+        ],
+        "bound": 399.49688948763657
+      },
+      "acceptance": 0.640625,
+      "screened": true,
+      "q_chunk_score": 0.2129069642772757,
+      "projection_chunk_score": 0.20974952695262283,
+      "difference": 0.003157437324652873,
+      "failures": 0,
+      "projected": [
+        {
+          "score": 0.1971320412225856,
+          "chunk": {
+            "lateral": -12.631218828649995,
+            "rotation": 0.06996532543390221,
+            "contact_controls": 8,
+            "block_displacement": 17.039205576691337,
+            "mean_reward": 0.1971320412225856,
+            "max_reward": 0.2309407411446821,
+            "state": {
+              "agent_position": [
+                309.3857136966888,
+                247.7866425205592
+              ],
+              "agent_velocity": [
+                -32.02450015369814,
+                6.175326343239046
+              ],
+              "block_position": [
+                291.9296928349356,
+                251.55306100711158
+              ],
+              "block_velocity": [
+                -17.831813001315496,
+                18.596381588883993
+              ],
+              "block_angle": 0.7644128700373225,
+              "block_angular_velocity": 0.08581891827726107
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 1.8898863345384598e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.20747506122158182,
+          "chunk": {
+            "lateral": -16.37169029347535,
+            "rotation": 0.07985778414572264,
+            "contact_controls": 8,
+            "block_displacement": 20.128916900234415,
+            "mean_reward": 0.20747506122158182,
+            "max_reward": 0.27006092192202924,
+            "state": {
+              "agent_position": [
+                309.108561350161,
+                251.71854513756995
+              ],
+              "agent_velocity": [
+                -3.0628595207299236,
+                5.667114049121229
+              ],
+              "block_position": [
+                290.1479396367734,
+                254.08521207758795
+              ],
+              "block_velocity": [
+                -4.135116644162221,
+                4.227889898210636
+              ],
+              "block_angle": 0.7743053287491429,
+              "block_angular_velocity": 0.02345899238365591
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8353184461593628e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.20152897216812068,
+          "chunk": {
+            "lateral": -13.517021770564336,
+            "rotation": 0.07293088707162143,
+            "contact_controls": 7,
+            "block_displacement": 16.56499869462463,
+            "mean_reward": 0.20152897216812068,
+            "max_reward": 0.2259235136856846,
+            "state": {
+              "agent_position": [
+                311.02137099430894,
+                248.28245033385699
+              ],
+              "agent_velocity": [
+                -9.687431501431858,
+                9.571096253952723
+              ],
+              "block_position": [
+                292.35112937585194,
+                251.25199580990125
+              ],
+              "block_velocity": [
+                0.0,
+                0.0
+              ],
+              "block_angle": 0.7673784316750417,
+              "block_angular_velocity": 0.0
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8613023459911346e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.19792064204078116,
+          "chunk": {
+            "lateral": -17.16610709324271,
+            "rotation": 0.09463042885376993,
+            "contact_controls": 8,
+            "block_displacement": 19.66966216814684,
+            "mean_reward": 0.19792064204078116,
+            "max_reward": 0.2684579993993039,
+            "state": {
+              "agent_position": [
+                310.0273815730083,
+                252.30344784643646
+              ],
+              "agent_velocity": [
+                -47.313526780163315,
+                33.87900265044133
+              ],
+              "block_position": [
+                290.9126452568578,
+                254.00687614119857
+              ],
+              "block_velocity": [
+                -38.825478842617244,
+                38.54078440382119
+              ],
+              "block_angle": 0.7890779734571902,
+              "block_angular_velocity": 0.2235201706928148
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8042122721672058e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.20751185546145695,
+          "chunk": {
+            "lateral": -18.301087753730403,
+            "rotation": 0.08380350444587814,
+            "contact_controls": 8,
+            "block_displacement": 19.68643222038343,
+            "mean_reward": 0.20751185546145695,
+            "max_reward": 0.2655022249600914,
+            "state": {
+              "agent_position": [
+                311.02280075158285,
+                253.22028666860655
+              ],
+              "agent_velocity": [
+                -29.25542209202748,
+                12.603316968543318
+              ],
+              "block_position": [
+                290.59099920502274,
+                253.83706623728557
+              ],
+              "block_velocity": [
+                -19.428915726297816,
+                19.708641083043958
+              ],
+              "block_angle": 0.7782510490492984,
+              "block_angular_velocity": 0.1302332283665225
+            }
+          },
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0033962540328502655,
+            "iterations": 12,
+            "distance": 2.495846163445813
+          }
+        },
+        {
+          "score": 0.20850157104840705,
+          "chunk": {
+            "lateral": -14.959618907961042,
+            "rotation": 0.08304803939562333,
+            "contact_controls": 8,
+            "block_displacement": 19.559551056788596,
+            "mean_reward": 0.20850157104840705,
+            "max_reward": 0.26422349051969285,
+            "state": {
+              "agent_position": [
+                308.55552415034947,
+                250.4024907148707
+              ],
+              "agent_velocity": [
+                -10.118423498152257,
+                -0.13517093723607143
+              ],
+              "block_position": [
+                290.62793714293616,
+                253.71120221423286
+              ],
+              "block_velocity": [
+                -4.738993136562408,
+                4.814491882111869
+              ],
+              "block_angle": 0.7774955839990436,
+              "block_angular_velocity": 0.023544087008901104
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.9104063287377357e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.21494710266211212,
+          "chunk": {
+            "lateral": -14.351297596589083,
+            "rotation": 0.09553333934526587,
+            "contact_controls": 8,
+            "block_displacement": 20.251542081730054,
+            "mean_reward": 0.21494710266211212,
+            "max_reward": 0.276192131996924,
+            "state": {
+              "agent_position": [
+                307.2190676632305,
+                250.11654465361178
+              ],
+              "agent_velocity": [
+                -28.352595919386445,
+                -10.785880252599082
+              ],
+              "block_position": [
+                290.50956155856903,
+                254.44571332556814
+              ],
+              "block_velocity": [
+                -8.694851246898489,
+                8.615522087927388
+              ],
+              "block_angle": 0.7899808839486862,
+              "block_angular_velocity": 0.035439880432558156
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8392067179083824e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.1865234286540118,
+          "chunk": {
+            "lateral": -5.58440132474343,
+            "rotation": 0.035811136997519366,
+            "contact_controls": 5,
+            "block_displacement": 8.10174263208801,
+            "mean_reward": 0.1865234286540118,
+            "max_reward": 0.19045199978647623,
+            "state": {
+              "agent_position": [
+                324.7609648963378,
+                236.57854298979203
+              ],
+              "agent_velocity": [
+                -9.176230571886233,
+                21.13215682504717
+              ],
+              "block_position": [
+                296.76695689832167,
+                244.02868270439146
+              ],
+              "block_velocity": [
+                0.0,
+                0.0
+              ],
+              "block_angle": 0.7302586816009397,
+              "block_angular_velocity": 0.0
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8793001547455788e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.2293631501355088,
+          "chunk": {
+            "lateral": -19.39585023445378,
+            "rotation": 0.0987196538047942,
+            "contact_controls": 8,
+            "block_displacement": 22.89042030787505,
+            "mean_reward": 0.2293631501355088,
+            "max_reward": 0.3086336887168243,
+            "state": {
+              "agent_position": [
+                308.38106532744035,
+                255.02629226737398
+              ],
+              "agent_velocity": [
+                -1.3745685723881214,
+                3.7084185915767094
+              ],
+              "block_position": [
+                288.79246748404614,
+                256.49350314245123
+              ],
+              "block_velocity": [
+                -2.4217919598915985,
+                2.384451336183834
+              ],
+              "block_angle": 0.7931671984082145,
+              "block_angular_velocity": 0.014384926266973828
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8331996873021126e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.21476576583309362,
+          "chunk": {
+            "lateral": -20.432882405847884,
+            "rotation": 0.10713532811802506,
+            "contact_controls": 8,
+            "block_displacement": 23.375157013475285,
+            "mean_reward": 0.21476576583309362,
+            "max_reward": 0.31615324384358323,
+            "state": {
+              "agent_position": [
+                308.25821934131466,
+                256.12817024723165
+              ],
+              "agent_velocity": [
+                -51.08703288911721,
+                43.37134732252091
+              ],
+              "block_position": [
+                288.7418331486557,
+                257.02928059454774
+              ],
+              "block_velocity": [
+                -45.509296465780984,
+                44.059524544282944
+              ],
+              "block_angle": 0.8015828727214453,
+              "block_angular_velocity": 0.272957932842256
+            }
+          },
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0011731700506061316,
+            "iterations": 12,
+            "distance": 2.262498766856064
+          }
+        },
+        {
+          "score": 0.2162077359211018,
+          "chunk": {
+            "lateral": -18.027371591900923,
+            "rotation": 0.0999284190855354,
+            "contact_controls": 8,
+            "block_displacement": 23.060204252502785,
+            "mean_reward": 0.2162077359211018,
+            "max_reward": 0.31053993995417517,
+            "state": {
+              "agent_position": [
+                307.0007125288053,
+                253.96692987950672
+              ],
+              "agent_velocity": [
+                -29.7559602059794,
+                14.508272953718109
+              ],
+              "block_position": [
+                288.7373886734221,
+                256.65878810660615
+              ],
+              "block_velocity": [
+                -21.54825672383205,
+                21.16477733125793
+              ],
+              "block_angle": 0.7943759636889557,
+              "block_angular_velocity": 0.10951144352871278
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 3.143702633678913e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.22598597304127932,
+          "chunk": {
+            "lateral": -19.38615089438201,
+            "rotation": 0.10172516903191442,
+            "contact_controls": 8,
+            "block_displacement": 23.480223543596985,
+            "mean_reward": 0.22598597304127932,
+            "max_reward": 0.31552065270126706,
+            "state": {
+              "agent_position": [
+                307.573043125459,
+                255.22303839546012
+              ],
+              "agent_velocity": [
+                -12.167212658103832,
+                8.43965429077573
+              ],
+              "block_position": [
+                288.5312166718674,
+                257.0250016036428
+              ],
+              "block_velocity": [
+                -9.953315787903566,
+                9.741109006722976
+              ],
+              "block_angle": 0.7961727136353347,
+              "block_angular_velocity": 0.05585099944077038
+            }
+          },
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0011508360039442778,
+            "iterations": 13,
+            "distance": 8.449697007478289
+          }
+        },
+        {
+          "score": 0.2037866543618393,
+          "chunk": {
+            "lateral": -17.48105711763797,
+            "rotation": 0.08550396626579915,
+            "contact_controls": 8,
+            "block_displacement": 19.676116094741836,
+            "mean_reward": 0.2037866543618393,
+            "max_reward": 0.2657375965767574,
+            "state": {
+              "agent_position": [
+                310.5014654021563,
+                252.50723583713315
+              ],
+              "agent_velocity": [
+                -22.05061763729902,
+                12.37279522748216
+              ],
+              "block_position": [
+                290.6554272408689,
+                253.86360673175025
+              ],
+              "block_velocity": [
+                -16.15902206533782,
+                16.336012980333244
+              ],
+              "block_angle": 0.7799515108692194,
+              "block_angular_velocity": 0.10076250326536021
+            }
+          },
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0010363149922341108,
+            "iterations": 12,
+            "distance": 17.012581108080607
+          }
+        },
+        {
+          "score": 0.19673656136936635,
+          "chunk": {
+            "lateral": -13.677405507853953,
+            "rotation": 0.07998203758888123,
+            "contact_controls": 7,
+            "block_displacement": 17.314650198107728,
+            "mean_reward": 0.19673656136936635,
+            "max_reward": 0.23675765104533475,
+            "state": {
+              "agent_position": [
+                309.8694278923297,
+                248.74276239891284
+              ],
+              "agent_velocity": [
+                -45.88137022610748,
+                9.798098506813362
+              ],
+              "block_position": [
+                292.0544176017745,
+                251.9467388899222
+              ],
+              "block_velocity": [
+                -26.367453261608095,
+                26.95231896836084
+              ],
+              "block_angle": 0.7744295821923015,
+              "block_angular_velocity": 0.13189171313256565
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.9162969440221786e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.2560645495380297,
+          "chunk": {
+            "lateral": -22.157763219118298,
+            "rotation": 0.11580546230028721,
+            "contact_controls": 8,
+            "block_displacement": 26.957217339006018,
+            "mean_reward": 0.2560645495380297,
+            "max_reward": 0.36181761110561084,
+            "state": {
+              "agent_position": [
+                305.606942582364,
+                258.5870371989621
+              ],
+              "agent_velocity": [
+                -30.694133344506973,
+                24.025752472576833
+              ],
+              "block_position": [
+                286.49325668693166,
+                259.8535124616797
+              ],
+              "block_velocity": [
+                -26.76706218270648,
+                25.46848833439539
+              ],
+              "block_angle": 0.8102530069037075,
+              "block_angular_velocity": 0.150965621381699
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.9864022508263588e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.19154136656268891,
+          "chunk": {
+            "lateral": -13.139848240943607,
+            "rotation": 0.07251083969808325,
+            "contact_controls": 8,
+            "block_displacement": 14.673349150918991,
+            "mean_reward": 0.19154136656268891,
+            "max_reward": 0.21099287971962966,
+            "state": {
+              "agent_position": [
+                312.635819347391,
+                247.4800172422969
+              ],
+              "agent_velocity": [
+                -25.440636204094695,
+                14.577391222718871
+              ],
+              "block_position": [
+                293.618331095343,
+                249.797166197353
+              ],
+              "block_velocity": [
+                -18.62816814362862,
+                19.328153672646057
+              ],
+              "block_angle": 0.7669583843015035,
+              "block_angular_velocity": 0.10813623168490222
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 4.0211016312241554e-05,
+            "distance": 0.0
+          }
+        }
+      ],
+      "safe_raw_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        13,
+        14,
+        15,
+        16,
+        18,
+        21,
+        22,
+        24,
+        25,
+        27,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        36,
+        39,
+        40,
+        43,
+        45,
+        47,
+        48,
+        49,
+        50,
+        52,
+        54,
+        55,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 45,
+        "offset": 25,
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865475
+        ],
+        "bound": 414.49688948763657
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 45,
+        "offset": 50,
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865475
+        ],
+        "bound": 439.49688948763657
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 45,
+        "offset": 100,
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865475
+        ],
+        "bound": 489.49688948763657
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 10,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 242.4453427869373
+      },
+      "acceptance": 0.015625,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 25,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 257.4453427869373
+      },
+      "acceptance": 0.953125,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 50,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 282.4453427869373
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 100,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 332.4453427869373
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 10,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": -50.76953320788677
+      },
+      "acceptance": 0.015625,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 25,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": -35.76953320788677
+      },
+      "acceptance": 0.90625,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 50,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": -10.769533207886766
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 100,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": 39.23046679211323
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 10,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": -308.3864408286129
+      },
+      "acceptance": 0.625,
+      "screened": true,
+      "q_chunk_score": 0.20607250873700034,
+      "projection_chunk_score": 0.20910169802778822,
+      "difference": -0.0030291892907878815,
+      "failures": 0,
+      "projected": [
+        {
+          "score": 0.1971320412225856,
+          "chunk": {
+            "lateral": -12.631218828649995,
+            "rotation": 0.06996532543390221,
+            "contact_controls": 8,
+            "block_displacement": 17.039205576691337,
+            "mean_reward": 0.1971320412225856,
+            "max_reward": 0.2309407411446821,
+            "state": {
+              "agent_position": [
+                309.3857136966888,
+                247.7866425205592
+              ],
+              "agent_velocity": [
+                -32.02450015369814,
+                6.175326343239046
+              ],
+              "block_position": [
+                291.9296928349356,
+                251.55306100711158
+              ],
+              "block_velocity": [
+                -17.831813001315496,
+                18.596381588883993
+              ],
+              "block_angle": 0.7644128700373225,
+              "block_angular_velocity": 0.08581891827726107
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 1.928885467350483e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.20747506122158182,
+          "chunk": {
+            "lateral": -16.37169029347535,
+            "rotation": 0.07985778414572264,
+            "contact_controls": 8,
+            "block_displacement": 20.128916900234415,
+            "mean_reward": 0.20747506122158182,
+            "max_reward": 0.27006092192202924,
+            "state": {
+              "agent_position": [
+                309.108561350161,
+                251.71854513756995
+              ],
+              "agent_velocity": [
+                -3.0628595207299236,
+                5.667114049121229
+              ],
+              "block_position": [
+                290.1479396367734,
+                254.08521207758795
+              ],
+              "block_velocity": [
+                -4.135116644162221,
+                4.227889898210636
+              ],
+              "block_angle": 0.7743053287491429,
+              "block_angular_velocity": 0.02345899238365591
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 3.020581789314747e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.2015289721681207,
+          "chunk": {
+            "lateral": -13.517021770564336,
+            "rotation": 0.07293088707162143,
+            "contact_controls": 7,
+            "block_displacement": 16.56499869462463,
+            "mean_reward": 0.2015289721681207,
+            "max_reward": 0.2259235136856846,
+            "state": {
+              "agent_position": [
+                311.02137099430894,
+                248.28245033385699
+              ],
+              "agent_velocity": [
+                -9.687431501431858,
+                9.571096253952723
+              ],
+              "block_position": [
+                292.35112937585194,
+                251.25199580990125
+              ],
+              "block_velocity": [
+                0.0,
+                0.0
+              ],
+              "block_angle": 0.7673784316750417,
+              "block_angular_velocity": 0.0
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.988521009683609e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.1979206420407812,
+          "chunk": {
+            "lateral": -17.16610709324271,
+            "rotation": 0.09463042885376993,
+            "contact_controls": 8,
+            "block_displacement": 19.66966216814684,
+            "mean_reward": 0.1979206420407812,
+            "max_reward": 0.268457999399304,
+            "state": {
+              "agent_position": [
+                310.0273815730083,
+                252.30344784643646
+              ],
+              "agent_velocity": [
+                -47.313526780163315,
+                33.87900265044133
+              ],
+              "block_position": [
+                290.9126452568578,
+                254.00687614119857
+              ],
+              "block_velocity": [
+                -38.825478842617244,
+                38.54078440382119
+              ],
+              "block_angle": 0.7890779734571902,
+              "block_angular_velocity": 0.2235201706928148
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8883107006549835e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.20767455201197443,
+          "chunk": {
+            "lateral": -19.19136318154753,
+            "rotation": 0.08583751917353755,
+            "contact_controls": 8,
+            "block_displacement": 19.683509811932293,
+            "mean_reward": 0.20767455201197443,
+            "max_reward": 0.2658128369828323,
+            "state": {
+              "agent_position": [
+                311.7545249457263,
+                253.95201086269714
+              ],
+              "agent_velocity": [
+                -31.74486239259559,
+                10.113876668009656
+              ],
+              "block_position": [
+                290.6667259197898,
+                253.8789415518886
+              ],
+              "block_velocity": [
+                -19.31097256562731,
+                19.509467070601
+              ],
+              "block_angle": 0.7802850637769578,
+              "block_angular_velocity": 0.13760758671479117
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8483103960752487e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.20850157104840705,
+          "chunk": {
+            "lateral": -14.959618907961042,
+            "rotation": 0.08304803939562333,
+            "contact_controls": 8,
+            "block_displacement": 19.559551056788596,
+            "mean_reward": 0.20850157104840705,
+            "max_reward": 0.26422349051969285,
+            "state": {
+              "agent_position": [
+                308.55552415034947,
+                250.4024907148707
+              ],
+              "agent_velocity": [
+                -10.118423498152257,
+                -0.13517093723607143
+              ],
+              "block_position": [
+                290.62793714293616,
+                253.71120221423286
+              ],
+              "block_velocity": [
+                -4.738993136562408,
+                4.814491882111869
+              ],
+              "block_angle": 0.7774955839990436,
+              "block_angular_velocity": 0.023544087008901104
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.857181243598461e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.21207286677660397,
+          "chunk": {
+            "lateral": -14.640683231115199,
+            "rotation": 0.09332816030688218,
+            "contact_controls": 8,
+            "block_displacement": 19.439845025427317,
+            "mean_reward": 0.21207286677660397,
+            "max_reward": 0.2656441944819114,
+            "state": {
+              "agent_position": [
+                308.3864408490776,
+                250.11654465361696
+              ],
+              "agent_velocity": [
+                -26.29684932206613,
+                -10.785880252589223
+              ],
+              "block_position": [
+                291.0132078052202,
+                253.7995762850113
+              ],
+              "block_velocity": [
+                -7.582930130519618,
+                7.546958125326781
+              ],
+              "block_angle": 0.7877757049103025,
+              "block_angular_velocity": 0.034395630251392716
+            }
+          },
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.003563926089555025,
+            "iterations": 11,
+            "distance": 2.384497815616282
+          }
+        },
+        {
+          "score": 0.1865234286540118,
+          "chunk": {
+            "lateral": -5.58440132474343,
+            "rotation": 0.035811136997519366,
+            "contact_controls": 5,
+            "block_displacement": 8.10174263208801,
+            "mean_reward": 0.1865234286540118,
+            "max_reward": 0.19045199978647623,
+            "state": {
+              "agent_position": [
+                324.7609648963378,
+                236.57854298979203
+              ],
+              "agent_velocity": [
+                -9.176230571886233,
+                21.13215682504717
+              ],
+              "block_position": [
+                296.76695689832167,
+                244.02868270439146
+              ],
+              "block_velocity": [
+                0.0,
+                0.0
+              ],
+              "block_angle": 0.7302586816009397,
+              "block_angular_velocity": 0.0
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.936413511633873e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.22934859881145173,
+          "chunk": {
+            "lateral": -19.3972553793795,
+            "rotation": 0.09871030789297564,
+            "contact_controls": 8,
+            "block_displacement": 22.886609533782345,
+            "mean_reward": 0.22934859881145173,
+            "max_reward": 0.30858459696455964,
+            "state": {
+              "agent_position": [
+                308.3867336409614,
+                255.02629226737713
+              ],
+              "agent_velocity": [
+                -1.36481246819136,
+                3.70841859156626
+              ],
+              "block_position": [
+                288.7948681548447,
+                256.49050426353995
+              ],
+              "block_velocity": [
+                -2.416990440955928,
+                2.379768337070741
+              ],
+              "block_angle": 0.7931578524963959,
+              "block_angular_velocity": 0.01436170491658366
+            }
+          },
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0011394289322197437,
+            "iterations": 12,
+            "distance": 0.011578333663334946
+          }
+        },
+        {
+          "score": 0.21491656377658158,
+          "chunk": {
+            "lateral": -21.15427981583239,
+            "rotation": 0.1101991131150919,
+            "contact_controls": 8,
+            "block_displacement": 23.35220101816309,
+            "mean_reward": 0.21491656377658158,
+            "max_reward": 0.3164294864531248,
+            "state": {
+              "agent_position": [
+                308.85114139895353,
+                256.72109230475917
+              ],
+              "agent_velocity": [
+                -54.02632171695642,
+                40.432058494862964
+              ],
+              "block_position": [
+                288.86476977313083,
+                257.0755750697515
+              ],
+              "block_velocity": [
+                -45.450690835847254,
+                43.73381140842996
+              ],
+              "block_angle": 0.8046466577185122,
+              "block_angular_velocity": 0.28598957362140787
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.891290932893753e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.2131174085761901,
+          "chunk": {
+            "lateral": -18.37088630494058,
+            "rotation": 0.09792749513504928,
+            "contact_controls": 8,
+            "block_displacement": 22.095178637631022,
+            "mean_reward": 0.2131174085761901,
+            "max_reward": 0.2981785778566004,
+            "state": {
+              "agent_position": [
+                308.3864408342519,
+                253.96692987950755
+              ],
+              "agent_velocity": [
+                -27.315689537598683,
+                14.50827295371196
+              ],
+              "block_position": [
+                289.35825804836844,
+                255.90648290810933
+              ],
+              "block_velocity": [
+                -20.138460524788375,
+                19.85939589861039
+              ],
+              "block_angle": 0.7923750397384696,
+              "block_angular_velocity": 0.11294286769125111
+            }
+          },
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0010209011379629374,
+            "iterations": 11,
+            "distance": 2.83051397568043
+          }
+        },
+        {
+          "score": 0.22639861256953348,
+          "chunk": {
+            "lateral": -20.065765502287785,
+            "rotation": 0.11157679891938599,
+            "contact_controls": 8,
+            "block_displacement": 23.221441032571022,
+            "mean_reward": 0.22639861256953348,
+            "max_reward": 0.3146791054867602,
+            "state": {
+              "agent_position": [
+                308.3864409917104,
+                255.7164157748479
+              ],
+              "agent_velocity": [
+                -15.265766104436826,
+                4.777545064181551
+              ],
+              "block_position": [
+                289.0275907031705,
+                257.01950453704706
+              ],
+              "block_velocity": [
+                -9.82565579183353,
+                9.428460590103688
+              ],
+              "block_angle": 0.8060243435228063,
+              "block_angular_velocity": 0.05657348512388012
+            }
+          },
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0009974460117518902,
+            "iterations": 11,
+            "distance": 0.6536796981502193
+          }
+        },
+        {
+          "score": 0.20624510925892195,
+          "chunk": {
+            "lateral": -19.732186110474846,
+            "rotation": 0.10547876616942597,
+            "contact_controls": 8,
+            "block_displacement": 19.594161000022503,
+            "mean_reward": 0.20624510925892195,
+            "max_reward": 0.26875148187515757,
+            "state": {
+              "agent_position": [
+                312.35168556625433,
+                254.35745600116562
+              ],
+              "agent_velocity": [
+                -34.93737992967836,
+                -0.5139670648555053
+              ],
+              "block_position": [
+                291.39143528386944,
+                254.18803954312602
+              ],
+              "block_velocity": [
+                -16.524855294206578,
+                16.05154721717661
+              ],
+              "block_angle": 0.7999263107728463,
+              "block_angular_velocity": 0.11308134318170086
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8903130441904068e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.19673656136936635,
+          "chunk": {
+            "lateral": -13.677405507853953,
+            "rotation": 0.07998203758888123,
+            "contact_controls": 7,
+            "block_displacement": 17.314650198107728,
+            "mean_reward": 0.19673656136936635,
+            "max_reward": 0.23675765104533475,
+            "state": {
+              "agent_position": [
+                309.8694278923297,
+                248.74276239891284
+              ],
+              "agent_velocity": [
+                -45.88137022610748,
+                9.798098506813362
+              ],
+              "block_position": [
+                292.0544176017745,
+                251.9467388899222
+              ],
+              "block_velocity": [
+                -26.367453261608095,
+                26.95231896836084
+              ],
+              "block_angle": 0.7744295821923015,
+              "block_angular_velocity": 0.13189171313256565
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.8692884370684624e-05,
+            "distance": 0.0
+          }
+        },
+        {
+          "score": 0.2484938123758108,
+          "chunk": {
+            "lateral": -22.846786130807363,
+            "rotation": 0.11088372821539527,
+            "contact_controls": 8,
+            "block_displacement": 25.035149948155105,
+            "mean_reward": 0.2484938123758108,
+            "max_reward": 0.3367464551126065,
+            "state": {
+              "agent_position": [
+                308.386440855928,
+                258.5870371989572
+              ],
+              "agent_velocity": [
+                -25.799432515862154,
+                24.025752472532716
+              ],
+              "block_position": [
+                287.7209877506603,
+                258.3521534855733
+              ],
+              "block_velocity": [
+                -23.75511682898118,
+                22.826477811050275
+              ],
+              "block_angle": 0.8053312728188156,
+              "block_angular_velocity": 0.15909973227178414
+            }
+          },
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0010206808801740408,
+            "iterations": 11,
+            "distance": 5.677453998579539
+          }
+        },
+        {
+          "score": 0.19154136656268891,
+          "chunk": {
+            "lateral": -13.139848240943607,
+            "rotation": 0.07251083969808325,
+            "contact_controls": 8,
+            "block_displacement": 14.673349150918991,
+            "mean_reward": 0.19154136656268891,
+            "max_reward": 0.21099287971962966,
+            "state": {
+              "agent_position": [
+                312.635819347391,
+                247.4800172422969
+              ],
+              "agent_velocity": [
+                -25.440636204094695,
+                14.577391222718871
+              ],
+              "block_position": [
+                293.618331095343,
+                249.797166197353
+              ],
+              "block_velocity": [
+                -18.62816814362862,
+                19.328153672646057
+              ],
+              "block_angle": 0.7669583843015035,
+              "block_angular_velocity": 0.10813623168490222
+            }
+          },
+          "solver": {
+            "status": "identity",
+            "seconds": 2.9043061658740044e-05,
+            "distance": 0.0
+          }
+        }
+      ],
+      "safe_raw_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        26,
+        27,
+        30,
+        31,
+        33,
+        36,
+        37,
+        38,
+        41,
+        43,
+        44,
+        46,
+        47,
+        49,
+        50,
+        52,
+        53,
+        55,
+        56,
+        59,
+        63
+      ]
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 25,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": -293.3864408286129
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 50,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": -268.3864408286129
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 100,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": -218.38644082861288
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 225,
+        "offset": 10,
+        "normal": [
+          -0.7071067811865477,
+          -0.7071067811865475
+        ],
+        "bound": -379.49688948763657
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 225,
+        "offset": 25,
+        "normal": [
+          -0.7071067811865477,
+          -0.7071067811865475
+        ],
+        "bound": -364.49688948763657
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 225,
+        "offset": 50,
+        "normal": [
+          -0.7071067811865477,
+          -0.7071067811865475
+        ],
+        "bound": -339.49688948763657
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 225,
+        "offset": 100,
+        "normal": [
+          -0.7071067811865477,
+          -0.7071067811865475
+        ],
+        "bound": -289.49688948763657
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 270,
+        "offset": 10,
+        "normal": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "bound": -222.44534278693732
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 270,
+        "offset": 25,
+        "normal": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "bound": -207.44534278693732
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 270,
+        "offset": 50,
+        "normal": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "bound": -182.44534278693732
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 270,
+        "offset": 100,
+        "normal": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "bound": -132.44534278693732
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 10,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": 70.7695332078867
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 25,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": 85.7695332078867
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 50,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": 110.7695332078867
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 100,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": 160.7695332078867
+      },
+      "acceptance": 1.0,
+      "screened": false
+    }
+  ]
+}

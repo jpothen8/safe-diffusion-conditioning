@@ -1,0 +1,30 @@
+{
+  "distributions": {
+    "gymnasium": {
+      "version": "1.2.0",
+      "license": "MIT License"
+    },
+    "mujoco": {
+      "version": "3.3.5",
+      "license": "Apache-2.0"
+    },
+    "stable-baselines3": {
+      "version": "2.7.0",
+      "license": "MIT"
+    },
+    "torch": {
+      "version": "2.7.1+cu128",
+      "license": "BSD-3-Clause"
+    },
+    "diffusers": {
+      "version": "0.11.1",
+      "license": "Apache"
+    }
+  },
+  "environment_files": {
+    "gymnasium/envs/mujoco/walker2d_v5.py": "66e1d4dacbb913a08da0bfed28d7ab6f1abc23df8aad07f2af4b9daf4eb07c5f",
+    "gymnasium/envs/mujoco/half_cheetah_v5.py": "393b47f45514d064cd17c5da995adb6a95f8b8ed015e4ffbf73a9217e5384724",
+    "gymnasium/envs/mujoco/assets/walker2d.xml": "ac13373c7ac9003a5311c4704b314ed11149b3dd7600bbc02770487300f9ad2d",
+    "gymnasium/envs/mujoco/assets/half_cheetah.xml": "11797a5d69e8ac955e89ca6fdd3a0087f1c990094fda401ac51420de1b6c5494"
+  }
+}

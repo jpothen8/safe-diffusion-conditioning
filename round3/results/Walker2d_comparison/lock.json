@@ -1,0 +1,54 @@
+{
+  "utc": "2026-09-14T22:32:34.580611+00:00",
+  "task": "Walker2d",
+  "config": {
+    "states": 32,
+    "replicates": 4,
+    "budget": 128,
+    "state_seed": 103000,
+    "proposal_seed": 104000,
+    "refinement_seed": 105000,
+    "bayesfp_seed": 106000,
+    "bootstrap_seed": 107000,
+    "bootstrap_draws": 20000,
+    "evaluation_seconds": 4.0,
+    "warmup_seconds": 1.0,
+    "bayesfp_particles": 32,
+    "tasks": {
+      "Walker2d": {
+        "caps": [
+          0.72,
+          0.75
+        ],
+        "bayesfp_strengths": {
+          "0.72": 100,
+          "0.75": 20
+        },
+        "minimum_useful_return_gain": 168.93711798856376
+      },
+      "HalfCheetah": {
+        "caps": [
+          0.7,
+          0.72
+        ],
+        "bayesfp_strengths": {
+          "0.7": 100,
+          "0.72": 20
+        },
+        "minimum_useful_return_gain": 26.1882030049912
+      }
+    }
+  },
+  "sha256": {
+    "LOCOMOTION_PROTOCOL.md": "141f5c27008e54e54ac570dae4888e88d29bcf2c339fb14b047d645d369079ea",
+    "configs/locomotion.json": "85661f2a9d7702f8d5264c60d54f311494e2d202eb48d87d2d7cac3410bbde71",
+    "src/locomotion_compare.py": "74b3a53910e94c17193c0f5a14c10fad234da87041e7076d6a6032ad83e9194a",
+    "src/locomotion_env.py": "853920fdd67c87b379c403da12321594f45e8b525d11a896d33c09c2fb134e79",
+    "src/chunk_model.py": "df772b0ee6c7eaa1c3349cf1e194f674cd4fd4c72c495b34c05d9fcd8f4f26bf",
+    "src/effort.py": "efcecd1d6e81ec3c89e29cda6c9adb723bef021f2eff34c1e38971f4cae8c827",
+    "src/bayesfp.py": "1ae2806b755da0b64201a6de04b5b9588d7519113e4663a4f0b0fff4783e70b2",
+    "assets/Walker2d_diffusion_v2.pt": "2f2f63b5758dd723366a7c4f34326f0c0f8c977eec4b9c8ec1d98220235ba03b",
+    "assets/Walker2d-v5-SAC-expert.zip": "1aa916f8baa4d1ff8a2f03e76acef5d44cdba60a4ab0b4337dda2aa55135c0a6",
+    "assets/Walker2d-v5-SAC-medium.zip": "57e909eed1b99e22e520f032bc6a69c096957059a822709b9af5b47ebc7afc7c"
+  }
+}

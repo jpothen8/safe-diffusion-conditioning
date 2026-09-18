@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[textwidth=5.5in,textheight=9in]{geometry}
+\usepackage{amsmath,booktabs,hyperref,graphicx}
+\makeatletter
+\def\input@path{{../../round3/}}
+\makeatother
+\title{Experiments and independent-model replication}
+\author{}
+\date{September 17, 2026}
+\begin{document}
+\maketitle
+\noindent This preview preserves the original pilot results and appends the
+completed independent-model check. The original HalfCheetah result concerns
+one trained policy; the new subsection reports all eight fresh models and
+the preregistered useful-effect decision. Neither section resolves the
+theoretical proof TODOs in the supplied manuscript. A final retrospective
+subsection examines error in the supplied safe set and adds conservative
+projection and conditioning controls.
+\input{../../round3/paper_experiments.tex}
+\input{../../results/halfcheetah_replication/paper_replication.tex}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../../results/halfcheetah_replication/model_comparison.pdf}
+\caption{Every independently trained model and the aggregate return differences.
+The aggregate interval uses a crossed model/state bootstrap. The dashed line
+marks the fixed 26.19-point useful-effect threshold for the primary comparison.
+Secondary contrasts are descriptive. All models use the same fixed demonstration
+dataset and the same fresh evaluation states.}
+\end{figure}
+\input{../../results/safe_set_mismatch/paper_mismatch.tex}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../../results/safe_set_mismatch/boundary_sensitivity.pdf}
+\caption{Retrospective safe-set error probe. Each original arm reuses all
+2,048 outputs from the eight-model study. The horizontal axis is linear near
+zero and logarithmic beyond .01\% to display small errors. A valid 1\% margin
+eliminates violations up to that bias, while finite refinement does not
+uniformly inherit the conditional reference's boundary robustness. Violation
+frequency and size are distinct; these are command-budget excesses, not
+observed collisions. Lines connect the fixed evaluation grid.}
+\end{figure}
+\end{document}

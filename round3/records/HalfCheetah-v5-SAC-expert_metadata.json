@@ -1,0 +1,130 @@
+{
+  "_id": "654868bc96c46859c22c0b89",
+  "id": "farama-minari/HalfCheetah-v5-SAC-expert",
+  "private": false,
+  "pipeline_tag": "reinforcement-learning",
+  "library_name": "stable-baselines3",
+  "tags": [
+    "stable-baselines3",
+    "HalfCheetah-v5",
+    "deep-reinforcement-learning",
+    "reinforcement-learning",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 17,
+  "likes": 0,
+  "modelId": "farama-minari/HalfCheetah-v5-SAC-expert",
+  "author": "farama-minari",
+  "sha": "8ac63b9fd8aa94c9c637a928ce1147600403d3d4",
+  "lastModified": "2023-11-07T00:15:39.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": [
+    {
+      "name": "SAC",
+      "results": [
+        {
+          "task": {
+            "type": "reinforcement-learning",
+            "name": "reinforcement-learning"
+          },
+          "dataset": {
+            "name": "HalfCheetah-v5",
+            "type": "HalfCheetah-v5"
+          },
+          "metrics": [
+            {
+              "type": "mean_reward",
+              "value": "11448.22 +/- 96.24",
+              "name": "mean_reward",
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {},
+  "cardData": {
+    "library_name": "stable-baselines3",
+    "tags": [
+      "HalfCheetah-v5",
+      "deep-reinforcement-learning",
+      "reinforcement-learning",
+      "stable-baselines3"
+    ],
+    "model-index": [
+      {
+        "name": "SAC",
+        "results": [
+          {
+            "task": {
+              "type": "reinforcement-learning",
+              "name": "reinforcement-learning"
+            },
+            "dataset": {
+              "name": "HalfCheetah-v5",
+              "type": "HalfCheetah-v5"
+            },
+            "metrics": [
+              {
+                "type": "mean_reward",
+                "value": "11448.22 +/- 96.24",
+                "name": "mean_reward",
+                "verified": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "halfcheetah-v5-sac-expert.zip"
+    },
+    {
+      "rfilename": "halfcheetah-v5-sac-expert/_stable_baselines3_version"
+    },
+    {
+      "rfilename": "halfcheetah-v5-sac-expert/actor.optimizer.pth"
+    },
+    {
+      "rfilename": "halfcheetah-v5-sac-expert/critic.optimizer.pth"
+    },
+    {
+      "rfilename": "halfcheetah-v5-sac-expert/data"
+    },
+    {
+      "rfilename": "halfcheetah-v5-sac-expert/ent_coef_optimizer.pth"
+    },
+    {
+      "rfilename": "halfcheetah-v5-sac-expert/policy.pth"
+    },
+    {
+      "rfilename": "halfcheetah-v5-sac-expert/pytorch_variables.pth"
+    },
+    {
+      "rfilename": "halfcheetah-v5-sac-expert/system_info.txt"
+    },
+    {
+      "rfilename": "replay.mp4"
+    },
+    {
+      "rfilename": "results.json"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2023-11-06T04:17:00.000Z",
+  "usedStorage": 36144902
+}

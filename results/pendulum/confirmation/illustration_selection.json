@@ -1,0 +1,14 @@
+{
+  "negative": {
+    "flat_index": 0,
+    "state_index": 0,
+    "replicate": 0,
+    "selection": "first raw proposal with mean torque in the opposite coherent mode; no reward ranking"
+  },
+  "positive": {
+    "flat_index": 4,
+    "state_index": 0,
+    "replicate": 4,
+    "selection": "first raw proposal with mean torque in the opposite coherent mode; no reward ranking"
+  }
+}

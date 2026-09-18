@@ -1,0 +1,35 @@
+\begin{table}[t]
+\caption{Mean native return after one constrained chunk and identical continuation. Q: first-feasible rejection; P: exact projection; R: finite refinement; B+P: paper-derived BayesFP with 32 particles and exact terminal repair. Pendulum uses 64 states with 8 replicates and 10 s evaluation; MuJoCo uses 32 states with 4 replicates and 4 s evaluation.}
+\label{tab:chunk-return}
+\centering\small
+\begin{tabular}{lrrrr}
+\toprule
+Setting & Q & P & R & B+P \\
+\midrule
+Pendulum negative & -367.01 & -423.38 & -366.35 & -366.72 \\
+Pendulum positive & -377.90 & -425.67 & -378.02 & -376.82 \\
+Walker2d 0.72 & 3302.52 & 3320.09 & 3336.20 & 3314.86 \\
+Walker2d 0.75 & 3314.99 & 3321.23 & 3316.10 & 3320.19 \\
+HalfCheetah 0.7 & 442.08 & 440.89 & 461.22 & 447.21 \\
+HalfCheetah 0.72 & 454.09 & 454.81 & 469.15 & 438.54 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\caption{Paired return differences with state-cluster bootstrap intervals. Q--P: 95\% (Pendulum, descriptive), 99.375\% (MuJoCo). R--(B+P): 98.75\% (Pendulum), 99.375\% (MuJoCo), adjusting their respective four- and eight-comparison families. Positive favors the first method. These are approximate bootstrap intervals, not finite-sample guarantees.}
+\label{tab:chunk-differences}
+\centering\footnotesize
+\begin{tabular}{lrr}
+\toprule
+Setting & Q--P [interval] & R--(B+P) [interval] \\
+\midrule
+Pendulum negative & +56.37 [+51.11, +61.54] & +0.38 [-0.99, +2.06] \\
+Pendulum positive & +47.77 [+43.08, +52.37] & -1.20 [-2.44, +0.21] \\
+Walker2d 0.72 & -17.57 [-29.68, -5.94] & +21.35 [+11.06, +31.82] \\
+Walker2d 0.75 & -6.24 [-12.45, -0.41] & -4.09 [-95.29, +32.03] \\
+HalfCheetah 0.7 & +1.19 [-30.11, +35.40] & +14.01 [-21.90, +49.63] \\
+HalfCheetah 0.72 & -0.73 [-8.99, +9.38] & +30.61 [+5.44, +57.42] \\
+\bottomrule
+\end{tabular}
+\end{table}

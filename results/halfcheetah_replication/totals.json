@@ -1,0 +1,47 @@
+{
+  "conditional": {
+    "requests": 2048,
+    "unsafe": 0,
+    "native_failures": 0,
+    "nonpositive_returns": 52,
+    "mean_return": 442.322057326465,
+    "mean_boundary_fraction": 0.0,
+    "mean_mmd_to_conditional": 0.0
+  },
+  "projection": {
+    "requests": 2048,
+    "unsafe": 0,
+    "native_failures": 0,
+    "nonpositive_returns": 52,
+    "mean_return": 441.3415978003566,
+    "mean_boundary_fraction": 0.1689453125,
+    "mean_mmd_to_conditional": 0.047311119561686446
+  },
+  "refinement": {
+    "requests": 2048,
+    "unsafe": 0,
+    "native_failures": 0,
+    "nonpositive_returns": 40,
+    "mean_return": 458.4645347965309,
+    "mean_boundary_fraction": 0.04052734375,
+    "mean_mmd_to_conditional": 0.14468619976781102
+  },
+  "bayesfp": {
+    "requests": 2048,
+    "unsafe": 320,
+    "native_failures": 0,
+    "nonpositive_returns": 45,
+    "mean_return": 440.82470512282555,
+    "mean_boundary_fraction": 0.0,
+    "mean_mmd_to_conditional": 0.08494045167278477
+  },
+  "bayesfp_projected": {
+    "requests": 2048,
+    "unsafe": 0,
+    "native_failures": 0,
+    "nonpositive_returns": 42,
+    "mean_return": 441.58043475296904,
+    "mean_boundary_fraction": 0.15625,
+    "mean_mmd_to_conditional": 0.08509862797104792
+  }
+}

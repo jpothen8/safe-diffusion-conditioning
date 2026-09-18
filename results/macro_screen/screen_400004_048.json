@@ -1,0 +1,1850 @@
+{
+  "name": "400004_048",
+  "settings": [
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 10,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 69.50244377513295
+      },
+      "acceptance": 0.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 25,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 84.50244377513295
+      },
+      "acceptance": 0.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 50,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 109.50244377513295
+      },
+      "acceptance": 0.234375,
+      "screened": true,
+      "q_score": 0.053394224438128926,
+      "p_score": 0.06555427799486616,
+      "difference": -0.01216005355673723,
+      "failures": 0,
+      "projected": [
+        {
+          "mean_reward": 0.05593687140831702,
+          "max_reward": 0.06086738031183797,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007505256216973066,
+            "distance": 113.81433383046188
+          }
+        },
+        {
+          "mean_reward": 0.04299885427383479,
+          "max_reward": 0.04980019583735016,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.004329318879172206,
+            "distance": 99.00996981092148
+          }
+        },
+        {
+          "mean_reward": 0.0793580223826524,
+          "max_reward": 0.12747338312217693,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.356121204793453e-05
+          }
+        },
+        {
+          "mean_reward": 0.04808307480316022,
+          "max_reward": 0.05408964047921271,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.004291723016649485,
+            "distance": 71.69654697572979
+          }
+        },
+        {
+          "mean_reward": 0.09586462812601632,
+          "max_reward": 0.1505720183982075,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0036256429739296436,
+            "distance": 70.72829932399672
+          }
+        },
+        {
+          "mean_reward": 0.04388283175584081,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.258914411067963e-05
+          }
+        },
+        {
+          "mean_reward": 0.023960654604361305,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0036435790825635195,
+            "distance": 9.229872440064195
+          }
+        },
+        {
+          "mean_reward": 0.07648491261113803,
+          "max_reward": 0.1801431949272524,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.339008152484894e-05
+          }
+        },
+        {
+          "mean_reward": 0.08853239052002508,
+          "max_reward": 0.12251964282469054,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0055164319928735495,
+            "distance": 144.3386461405365
+          }
+        },
+        {
+          "mean_reward": 0.1089286677244849,
+          "max_reward": 0.17398891233138944,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0040193041786551476,
+            "distance": 83.40020894493215
+          }
+        },
+        {
+          "mean_reward": 0.022070073321880858,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0033527929335832596,
+            "distance": 3.3943933495391625
+          }
+        },
+        {
+          "mean_reward": 0.06342931492877509,
+          "max_reward": 0.0983156540481022,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.003360194154083729,
+            "distance": 41.065224804144535
+          }
+        },
+        {
+          "mean_reward": 0.05455424149281036,
+          "max_reward": 0.07862407103111062,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0031830689404159784,
+            "distance": 30.567176641383018
+          }
+        },
+        {
+          "mean_reward": 0.10207046738866099,
+          "max_reward": 0.15129457045822445,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0035340250469744205,
+            "distance": 156.5784339313866
+          }
+        },
+        {
+          "mean_reward": 0.06068557000901823,
+          "max_reward": 0.12044833164714538,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0031791930086910725,
+            "distance": 6.876010785283567
+          }
+        },
+        {
+          "mean_reward": 0.08202787256688215,
+          "max_reward": 0.13201938342090427,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.004306916147470474,
+            "distance": 129.43468617985758
+          }
+        }
+      ]
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 100,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 159.50244377513295
+      },
+      "acceptance": 0.96875,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 150,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 209.50244377513295
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 45,
+        "offset": 10,
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865475
+        ],
+        "bound": 280.7179653380534
+      },
+      "acceptance": 0.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 45,
+        "offset": 25,
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865475
+        ],
+        "bound": 295.7179653380534
+      },
+      "acceptance": 0.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 45,
+        "offset": 50,
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865475
+        ],
+        "bound": 320.7179653380534
+      },
+      "acceptance": 0.03125,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 45,
+        "offset": 100,
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865475
+        ],
+        "bound": 370.7179653380534
+      },
+      "acceptance": 0.609375,
+      "screened": true,
+      "q_score": 0.07043511338269529,
+      "p_score": 0.0805433991593145,
+      "difference": -0.010108285776619208,
+      "failures": 0,
+      "projected": [
+        {
+          "mean_reward": 0.047070561675109784,
+          "max_reward": 0.0593201665216841,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.011019392171874642,
+            "distance": 48.07690141504729
+          }
+        },
+        {
+          "mean_reward": 0.07284990955486467,
+          "max_reward": 0.15469925331397044,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0070596178993582726,
+            "distance": 26.21426244050666
+          }
+        },
+        {
+          "mean_reward": 0.0793580223826524,
+          "max_reward": 0.12747338312217693,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.489300332963467e-05
+          }
+        },
+        {
+          "mean_reward": 0.061300637506825045,
+          "max_reward": 0.11574799405082282,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007841712096706033,
+            "distance": 21.94684237808821
+          }
+        },
+        {
+          "mean_reward": 0.12284293689681915,
+          "max_reward": 0.24253525198840767,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.006359456805512309,
+            "distance": 0.3297294904790407
+          }
+        },
+        {
+          "mean_reward": 0.04388283175584081,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.414096035063267e-05
+          }
+        },
+        {
+          "mean_reward": 0.022569812283682628,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007414629915729165,
+            "distance": 9.9137456140584
+          }
+        },
+        {
+          "mean_reward": 0.07648491261113803,
+          "max_reward": 0.1801431949272524,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.280916906893253e-05
+          }
+        },
+        {
+          "mean_reward": 0.14032911602873835,
+          "max_reward": 0.23200910951985904,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008437956916168332,
+            "distance": 35.882026560649685
+          }
+        },
+        {
+          "mean_reward": 0.13298432074303923,
+          "max_reward": 0.2877556967040113,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.328018546104431e-05
+          }
+        },
+        {
+          "mean_reward": 0.02207003697486781,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 8.236384019255638e-05
+          }
+        },
+        {
+          "mean_reward": 0.06447151407089095,
+          "max_reward": 0.1183469184586267,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.006311314180493355,
+            "distance": 5.4895828781491405
+          }
+        },
+        {
+          "mean_reward": 0.05790872969876723,
+          "max_reward": 0.1258169576793054,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.006340758875012398,
+            "distance": 14.89691478447696
+          }
+        },
+        {
+          "mean_reward": 0.15058753992244384,
+          "max_reward": 0.3575888448234446,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008106910157948732,
+            "distance": 35.30975869649596
+          }
+        },
+        {
+          "mean_reward": 0.061611438792158385,
+          "max_reward": 0.13512038659745107,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.371092215180397e-05
+          }
+        },
+        {
+          "mean_reward": 0.1323720656511936,
+          "max_reward": 0.32155920170763,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008269494166597724,
+            "distance": 15.081088946301607
+          }
+        }
+      ]
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 45,
+        "offset": 150,
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865475
+        ],
+        "bound": 420.7179653380534
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 10,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 333.3505743839916
+      },
+      "acceptance": 0.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 25,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 348.3505743839916
+      },
+      "acceptance": 0.015625,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 50,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 373.3505743839916
+      },
+      "acceptance": 0.0625,
+      "screened": true,
+      "q_score": 0.045908255390855114,
+      "p_score": 0.06409308590567334,
+      "difference": -0.018184830514818222,
+      "failures": 0,
+      "projected": [
+        {
+          "mean_reward": 0.045120526954753,
+          "max_reward": 0.05758978876172931,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.011877649929374456,
+            "distance": 92.8890296765328
+          }
+        },
+        {
+          "mean_reward": 0.03151981411680381,
+          "max_reward": 0.04975148448693752,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008070014882832766,
+            "distance": 107.47397275713531
+          }
+        },
+        {
+          "mean_reward": 0.08440377338582628,
+          "max_reward": 0.13757320282544017,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.00822876300662756,
+            "distance": 59.455600202533475
+          }
+        },
+        {
+          "mean_reward": 0.03149636668762215,
+          "max_reward": 0.04555495249779545,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.011043318081647158,
+            "distance": 124.57379553650935
+          }
+        },
+        {
+          "mean_reward": 0.11986626854464333,
+          "max_reward": 0.22263677982027952,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009589615976437926,
+            "distance": 60.48054830915303
+          }
+        },
+        {
+          "mean_reward": 0.04388283175584081,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.647508755326271e-05
+          }
+        },
+        {
+          "mean_reward": 0.026841475525973546,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.010039641056209803,
+            "distance": 145.72026449312003
+          }
+        },
+        {
+          "mean_reward": 0.07652690146427876,
+          "max_reward": 0.17259708178295785,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007878658128902316,
+            "distance": 35.520269064561596
+          }
+        },
+        {
+          "mean_reward": 0.062209538129743766,
+          "max_reward": 0.08248239851254367,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007705287076532841,
+            "distance": 83.15387657947097
+          }
+        },
+        {
+          "mean_reward": 0.13161933794130817,
+          "max_reward": 0.2626145720724149,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008585738949477673,
+            "distance": 38.22547633909575
+          }
+        },
+        {
+          "mean_reward": 0.02496264653057962,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008454110939055681,
+            "distance": 130.0666496370856
+          }
+        },
+        {
+          "mean_reward": 0.04905554410812854,
+          "max_reward": 0.053789690892681936,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007048501167446375,
+            "distance": 74.17322862111507
+          }
+        },
+        {
+          "mean_reward": 0.04939306579318169,
+          "max_reward": 0.0567871654943663,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008454141207039356,
+            "distance": 108.3923057935513
+          }
+        },
+        {
+          "mean_reward": 0.1546085880675449,
+          "max_reward": 0.3405499233996383,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009358508978039026,
+            "distance": 58.2733815264041
+          }
+        },
+        {
+          "mean_reward": 0.05720187415572373,
+          "max_reward": 0.06894245716847054,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009349506115540862,
+            "distance": 106.30807959912669
+          }
+        },
+        {
+          "mean_reward": 0.036780821328821114,
+          "max_reward": 0.05559887380408467,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008224336197599769,
+            "distance": 75.34378164564036
+          }
+        }
+      ]
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 100,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 423.3505743839916
+      },
+      "acceptance": 0.96875,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 150,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 473.3505743839916
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 10,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": 196.56880235691787
+      },
+      "acceptance": 0.0625,
+      "screened": true,
+      "q_score": 0.03705278855157627,
+      "p_score": 0.03908678302945985,
+      "difference": -0.002033994477883584,
+      "failures": 0,
+      "projected": [
+        {
+          "mean_reward": 0.024761711007513357,
+          "max_reward": 0.04908689006178341,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.011314635165035725,
+            "distance": 12.128274489464888
+          }
+        },
+        {
+          "mean_reward": 0.027037586485078702,
+          "max_reward": 0.049531745793877646,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007583794882521033,
+            "distance": 29.551802679541023
+          }
+        },
+        {
+          "mean_reward": 0.0487929161251471,
+          "max_reward": 0.05302253539088411,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007972538005560637,
+            "distance": 44.06090193949381
+          }
+        },
+        {
+          "mean_reward": 0.025031256142484998,
+          "max_reward": 0.04549564170206207,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007469682954251766,
+            "distance": 37.321476197448746
+          }
+        },
+        {
+          "mean_reward": 0.04544279980703908,
+          "max_reward": 0.04934460469007198,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009940061951056123,
+            "distance": 27.82604062411684
+          }
+        },
+        {
+          "mean_reward": 0.04388283171646226,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.006722371093928814,
+            "distance": 17.119429066282592
+          }
+        },
+        {
+          "mean_reward": 0.021784736689826716,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008950205985456705,
+            "distance": 69.96744618569478
+          }
+        },
+        {
+          "mean_reward": 0.0515893256118501,
+          "max_reward": 0.0626903065971809,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007777214981615543,
+            "distance": 81.12476944044896
+          }
+        },
+        {
+          "mean_reward": 0.03454908424005222,
+          "max_reward": 0.04929246571411465,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.006577224005013704,
+            "distance": 5.5643451909620145
+          }
+        },
+        {
+          "mean_reward": 0.06723672595908027,
+          "max_reward": 0.09402385987818372,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007687340024858713,
+            "distance": 24.731067676794645
+          }
+        },
+        {
+          "mean_reward": 0.0220476525053431,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007632558001205325,
+            "distance": 72.25178816113636
+          }
+        },
+        {
+          "mean_reward": 0.035530986449276936,
+          "max_reward": 0.04516023787803443,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0073298627976328135,
+            "distance": 56.4557961835148
+          }
+        },
+        {
+          "mean_reward": 0.03770509383677365,
+          "max_reward": 0.04663739421673195,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007995623163878918,
+            "distance": 56.64840523782289
+          }
+        },
+        {
+          "mean_reward": 0.05698155820149152,
+          "max_reward": 0.06888870399140555,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0066351809073239565,
+            "distance": 13.356860397380817
+          }
+        },
+        {
+          "mean_reward": 0.03688020805308842,
+          "max_reward": 0.04541006308800945,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0077173958998173475,
+            "distance": 81.44381575813087
+          }
+        },
+        {
+          "mean_reward": 0.04613405564084914,
+          "max_reward": 0.05237615932543575,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007712759077548981,
+            "distance": 15.273261324034
+          }
+        }
+      ]
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 25,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": 211.56880235691787
+      },
+      "acceptance": 0.515625,
+      "screened": true,
+      "q_score": 0.08764234472626753,
+      "p_score": 0.0820186563475356,
+      "difference": 0.0056236883787319225,
+      "failures": 0,
+      "projected": [
+        {
+          "mean_reward": 0.04636440976181243,
+          "max_reward": 0.0593209898012878,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.151695899665356e-05
+          }
+        },
+        {
+          "mean_reward": 0.07739382977396209,
+          "max_reward": 0.19041744305552527,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 8.55990219861269e-05
+          }
+        },
+        {
+          "mean_reward": 0.07920603388504399,
+          "max_reward": 0.12624336128727856,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.01031727809458971,
+            "distance": 1.2749868561578073
+          }
+        },
+        {
+          "mean_reward": 0.06721435208179248,
+          "max_reward": 0.17112343051243745,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.500289939343929e-05
+          }
+        },
+        {
+          "mean_reward": 0.12284476176842413,
+          "max_reward": 0.24257119394212004,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 8.166301995515823e-05
+          }
+        },
+        {
+          "mean_reward": 0.04388283175584081,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.374095730483532e-05
+          }
+        },
+        {
+          "mean_reward": 0.022619997971270733,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008049604017287493,
+            "distance": 19.161863607433656
+          }
+        },
+        {
+          "mean_reward": 0.0776537472243123,
+          "max_reward": 0.1726886327057183,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007394780870527029,
+            "distance": 27.529808028731612
+          }
+        },
+        {
+          "mean_reward": 0.14288646227544363,
+          "max_reward": 0.2406551373796069,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 8.651986718177795e-05
+          }
+        },
+        {
+          "mean_reward": 0.13298432074303923,
+          "max_reward": 0.2877556967040113,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 8.290400728583336e-05
+          }
+        },
+        {
+          "mean_reward": 0.022069445678284005,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.008336904924362898,
+            "distance": 27.435655672659944
+          }
+        },
+        {
+          "mean_reward": 0.06773423397175485,
+          "max_reward": 0.1293990129750462,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.00659425905905664,
+            "distance": 11.409255556187738
+          }
+        },
+        {
+          "mean_reward": 0.05864160238508379,
+          "max_reward": 0.13134082994262766,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007001089863479137,
+            "distance": 7.5673486661904485
+          }
+        },
+        {
+          "mean_reward": 0.15332515059349772,
+          "max_reward": 0.36531018502926005,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.142708636820316e-05
+          }
+        },
+        {
+          "mean_reward": 0.06362838791411816,
+          "max_reward": 0.1370857452229445,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.006905076093971729,
+            "distance": 28.8992249782974
+          }
+        },
+        {
+          "mean_reward": 0.13384893377688933,
+          "max_reward": 0.33305734366788387,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.086596451699734e-05
+          }
+        }
+      ]
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 50,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": 236.56880235691787
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 100,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": 286.5688023569179
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 150,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": 336.5688023569179
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 10,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": -49.5024437751329
+      },
+      "acceptance": 0.9375,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 25,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": -34.5024437751329
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 50,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": -9.502443775132903
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 100,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": 40.4975562248671
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 150,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": 90.4975562248671
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 225,
+        "offset": 10,
+        "normal": [
+          -0.7071067811865477,
+          -0.7071067811865475
+        ],
+        "bound": -260.7179653380534
+      },
+      "acceptance": 0.9375,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 225,
+        "offset": 25,
+        "normal": [
+          -0.7071067811865477,
+          -0.7071067811865475
+        ],
+        "bound": -245.71796533805338
+      },
+      "acceptance": 0.96875,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 225,
+        "offset": 50,
+        "normal": [
+          -0.7071067811865477,
+          -0.7071067811865475
+        ],
+        "bound": -220.71796533805338
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 225,
+        "offset": 100,
+        "normal": [
+          -0.7071067811865477,
+          -0.7071067811865475
+        ],
+        "bound": -170.71796533805338
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 225,
+        "offset": 150,
+        "normal": [
+          -0.7071067811865477,
+          -0.7071067811865475
+        ],
+        "bound": -120.71796533805338
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 270,
+        "offset": 10,
+        "normal": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "bound": -313.3505743839916
+      },
+      "acceptance": 0.921875,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 270,
+        "offset": 25,
+        "normal": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "bound": -298.3505743839916
+      },
+      "acceptance": 0.984375,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 270,
+        "offset": 50,
+        "normal": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "bound": -273.3505743839916
+      },
+      "acceptance": 0.984375,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 270,
+        "offset": 100,
+        "normal": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "bound": -223.3505743839916
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 270,
+        "offset": 150,
+        "normal": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "bound": -173.3505743839916
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 10,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": -176.5688023569179
+      },
+      "acceptance": 0.640625,
+      "screened": true,
+      "q_score": 0.06151584680935043,
+      "p_score": 0.0794711021822668,
+      "difference": -0.017955255372916368,
+      "failures": 0,
+      "projected": [
+        {
+          "mean_reward": 0.04636440976181243,
+          "max_reward": 0.0593209898012878,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.109600119292736e-05
+          }
+        },
+        {
+          "mean_reward": 0.07724068265399012,
+          "max_reward": 0.1896446554055518,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009567762957885861,
+            "distance": 9.224268877876728
+          }
+        },
+        {
+          "mean_reward": 0.0793580223826524,
+          "max_reward": 0.12747338312217693,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.380102761089802e-05
+          }
+        },
+        {
+          "mean_reward": 0.06721435208179248,
+          "max_reward": 0.17112343051243745,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.926882244646549e-05
+          }
+        },
+        {
+          "mean_reward": 0.12284476176842413,
+          "max_reward": 0.24257119394212004,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 8.521811105310917e-05
+          }
+        },
+        {
+          "mean_reward": 0.044072948670584075,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007271665846928954,
+            "distance": 118.76711119018037
+          }
+        },
+        {
+          "mean_reward": 0.02261294187223863,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.512304000556469e-05
+          }
+        },
+        {
+          "mean_reward": 0.07648491261113803,
+          "max_reward": 0.1801431949272524,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.425202056765556e-05
+          }
+        },
+        {
+          "mean_reward": 0.13796423578270614,
+          "max_reward": 0.20707308273190825,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0073828729800879955,
+            "distance": 25.654598817868667
+          }
+        },
+        {
+          "mean_reward": 0.12788319039303536,
+          "max_reward": 0.24725686862850887,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007424816023558378,
+            "distance": 26.519925267691935
+          }
+        },
+        {
+          "mean_reward": 0.022286954090786175,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0062615389470011,
+            "distance": 4.317895694958805
+          }
+        },
+        {
+          "mean_reward": 0.06481475664606502,
+          "max_reward": 0.12273846368607871,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.219891995191574e-05
+          }
+        },
+        {
+          "mean_reward": 0.0585650115791745,
+          "max_reward": 0.13338700803194856,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.252907380461693e-05
+          }
+        },
+        {
+          "mean_reward": 0.13764687432749304,
+          "max_reward": 0.2441542097627423,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.007082681870087981,
+            "distance": 59.98495418939873
+          }
+        },
+        {
+          "mean_reward": 0.06161143879215839,
+          "max_reward": 0.13512038659745107,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.593398913741112e-05
+          }
+        },
+        {
+          "mean_reward": 0.12457214150221774,
+          "max_reward": 0.23488700064034176,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.00626711780205369,
+            "distance": 45.625476036579194
+          }
+        }
+      ]
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 25,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": -161.5688023569179
+      },
+      "acceptance": 0.921875,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 50,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": -136.5688023569179
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 100,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": -86.5688023569179
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 150,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": -36.5688023569179
+      },
+      "acceptance": 1.0,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "speed",
+        "cap": 100
+      },
+      "acceptance": 0.3125,
+      "screened": true,
+      "q_score": 0.06782990409500862,
+      "p_score": 0.08020058881966782,
+      "difference": -0.0123706847246592,
+      "failures": 0,
+      "projected": [
+        {
+          "mean_reward": 0.04636440976181243,
+          "max_reward": 0.0593209898012878,
+          "success": false,
+          "solver": {
+            "status": "identity",
+            "distance": 0.0,
+            "seconds": 7.533305324614048e-05
+          }
+        },
+        {
+          "mean_reward": 0.06559410470657251,
+          "max_reward": 0.12788683724350505,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.013245093869045377,
+            "distance": 3.079864769884045
+          }
+        },
+        {
+          "mean_reward": 0.08048987693516288,
+          "max_reward": 0.13020159549351573,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009808545000851154,
+            "distance": 32.79603550067547
+          }
+        },
+        {
+          "mean_reward": 0.06032273400222601,
+          "max_reward": 0.1268042408513465,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009594272123649716,
+            "distance": 4.593461831147516
+          }
+        },
+        {
+          "mean_reward": 0.12277608266335027,
+          "max_reward": 0.24003310515075246,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.010569185949862003,
+            "distance": 0.5637258007459273
+          }
+        },
+        {
+          "mean_reward": 0.04392895399231898,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.011122397147119045,
+            "distance": 24.418667164798435
+          }
+        },
+        {
+          "mean_reward": 0.0226973777789493,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.010958511149510741,
+            "distance": 2.4103330289379583
+          }
+        },
+        {
+          "mean_reward": 0.07644818850296858,
+          "max_reward": 0.18007916758452433,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.01029911101795733,
+            "distance": 5.427717307170727
+          }
+        },
+        {
+          "mean_reward": 0.1381841669194891,
+          "max_reward": 0.23329074104736375,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009532138938084245,
+            "distance": 5.766850155194347
+          }
+        },
+        {
+          "mean_reward": 0.1327963826039581,
+          "max_reward": 0.28736667516739817,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009276726050302386,
+            "distance": 1.8574379401554404
+          }
+        },
+        {
+          "mean_reward": 0.022070410292180282,
+          "max_reward": 0.045143762860099995,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.00911130802705884,
+            "distance": 0.17390446524871078
+          }
+        },
+        {
+          "mean_reward": 0.06508443871452159,
+          "max_reward": 0.12390754518070517,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.010262876050546765,
+            "distance": 4.26212768859862
+          }
+        },
+        {
+          "mean_reward": 0.058639271443225,
+          "max_reward": 0.1335374914709951,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009917268063873053,
+            "distance": 4.462194752998324
+          }
+        },
+        {
+          "mean_reward": 0.15325956416976388,
+          "max_reward": 0.3651905302387451,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.009680823190137744,
+            "distance": 1.4215593599474317
+          }
+        },
+        {
+          "mean_reward": 0.06143310416744008,
+          "max_reward": 0.134994332560309,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.010324598988518119,
+            "distance": 1.355616716052547
+          }
+        },
+        {
+          "mean_reward": 0.13312035446074616,
+          "max_reward": 0.33142304054693894,
+          "success": false,
+          "solver": {
+            "status": "optimal",
+            "valid": true,
+            "seconds": 0.0097349239513278,
+            "distance": 10.634717402320653
+          }
+        }
+      ]
+    },
+    {
+      "setting": {
+        "type": "speed",
+        "cap": 150
+      },
+      "acceptance": 0.921875,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "speed",
+        "cap": 200
+      },
+      "acceptance": 0.96875,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "speed",
+        "cap": 250
+      },
+      "acceptance": 0.984375,
+      "screened": false
+    },
+    {
+      "setting": {
+        "type": "speed",
+        "cap": 350
+      },
+      "acceptance": 1.0,
+      "screened": false
+    }
+  ]
+}

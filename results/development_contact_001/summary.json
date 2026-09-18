@@ -1,0 +1,28 @@
+{
+  "phase": "development",
+  "seconds": 69.12091350299306,
+  "pairs": 32,
+  "complete_pairs": 32,
+  "acceptance": 0.1904296875,
+  "refusals": 0,
+  "projection_failures": 0,
+  "difference": 0.019308368969748416,
+  "CI95": [
+    0.0012946574202171357,
+    0.038600399381632344
+  ],
+  "conditional": {
+    "mean_reward": 0.8570115431624435,
+    "mean_max_reward": 0.96961082771255,
+    "successes": 11,
+    "unsafe": 0,
+    "boundary": 3
+  },
+  "projection": {
+    "mean_reward": 0.8377031741926951,
+    "mean_max_reward": 0.9760256545849837,
+    "successes": 11,
+    "unsafe": 0,
+    "boundary": 25
+  }
+}

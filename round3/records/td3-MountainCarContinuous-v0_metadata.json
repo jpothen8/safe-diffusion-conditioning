@@ -1,0 +1,136 @@
+{
+  "_id": "6298c6fe43898d5a4f7ca879",
+  "id": "sb3/td3-MountainCarContinuous-v0",
+  "private": false,
+  "pipeline_tag": "reinforcement-learning",
+  "library_name": "stable-baselines3",
+  "tags": [
+    "stable-baselines3",
+    "MountainCarContinuous-v0",
+    "deep-reinforcement-learning",
+    "reinforcement-learning",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 22,
+  "likes": 0,
+  "modelId": "sb3/td3-MountainCarContinuous-v0",
+  "author": "sb3",
+  "sha": "ff74eb996b2b2e29e9bdbcc93ea1da5135aa7614",
+  "lastModified": "2022-10-11T15:13:00.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": [
+    {
+      "name": "TD3",
+      "results": [
+        {
+          "metrics": [
+            {
+              "type": "mean_reward",
+              "value": "93.46 +/- 0.05",
+              "name": "mean_reward",
+              "verified": false
+            }
+          ],
+          "task": {
+            "type": "reinforcement-learning",
+            "name": "reinforcement-learning"
+          },
+          "dataset": {
+            "name": "MountainCarContinuous-v0",
+            "type": "MountainCarContinuous-v0"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {},
+  "cardData": {
+    "library_name": "stable-baselines3",
+    "tags": [
+      "MountainCarContinuous-v0",
+      "deep-reinforcement-learning",
+      "reinforcement-learning",
+      "stable-baselines3"
+    ],
+    "model-index": [
+      {
+        "name": "TD3",
+        "results": [
+          {
+            "metrics": [
+              {
+                "type": "mean_reward",
+                "value": "93.46 +/- 0.05",
+                "name": "mean_reward",
+                "verified": false
+              }
+            ],
+            "task": {
+              "type": "reinforcement-learning",
+              "name": "reinforcement-learning"
+            },
+            "dataset": {
+              "name": "MountainCarContinuous-v0",
+              "type": "MountainCarContinuous-v0"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "args.yml"
+    },
+    {
+      "rfilename": "config.yml"
+    },
+    {
+      "rfilename": "env_kwargs.yml"
+    },
+    {
+      "rfilename": "replay.mp4"
+    },
+    {
+      "rfilename": "results.json"
+    },
+    {
+      "rfilename": "td3-MountainCarContinuous-v0.zip"
+    },
+    {
+      "rfilename": "td3-MountainCarContinuous-v0/_stable_baselines3_version"
+    },
+    {
+      "rfilename": "td3-MountainCarContinuous-v0/actor.optimizer.pth"
+    },
+    {
+      "rfilename": "td3-MountainCarContinuous-v0/critic.optimizer.pth"
+    },
+    {
+      "rfilename": "td3-MountainCarContinuous-v0/data"
+    },
+    {
+      "rfilename": "td3-MountainCarContinuous-v0/policy.pth"
+    },
+    {
+      "rfilename": "td3-MountainCarContinuous-v0/pytorch_variables.pth"
+    },
+    {
+      "rfilename": "td3-MountainCarContinuous-v0/system_info.txt"
+    },
+    {
+      "rfilename": "train_eval_metrics.zip"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2022-06-02T14:19:42.000Z",
+  "usedStorage": 12123895
+}

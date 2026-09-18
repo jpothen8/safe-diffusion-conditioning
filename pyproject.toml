@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=78"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safety-conditioning"
+version = "0.1.0"
+description = "Reproducible conditioning, projection and safe diffusion experiments"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==1.26.4", "scipy==1.14.1", "torch==2.7.1",
+    "diffusers==0.11.1", "huggingface-hub==0.25.2",
+    "gymnasium==1.2.0", "mujoco==3.3.5", "stable-baselines3==2.7.0",
+    "matplotlib==3.9.2",
+]
+
+[project.scripts]
+safety-conditioning = "safety_conditioning.cli:main"
+
+[tool.setuptools]
+packages = ["safety_conditioning"]
+

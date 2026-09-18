@@ -1,0 +1,157 @@
+{
+  "_id": "65491ceadeeb9ab6a1811e2f",
+  "id": "farama-minari/Walker2d-v5-SAC-expert",
+  "private": false,
+  "pipeline_tag": "reinforcement-learning",
+  "library_name": "stable-baselines3",
+  "tags": [
+    "stable-baselines3",
+    "Walker2d-v5",
+    "deep-reinforcement-learning",
+    "reinforcement-learning",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 73,
+  "likes": 0,
+  "modelId": "farama-minari/Walker2d-v5-SAC-expert",
+  "author": "farama-minari",
+  "sha": "2b0ab400beed313a86d84bd82a6e120aa89a61e3",
+  "lastModified": "2025-01-26T12:20:12.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": [
+    {
+      "name": "SAC",
+      "results": [
+        {
+          "task": {
+            "type": "reinforcement-learning",
+            "name": "reinforcement-learning"
+          },
+          "dataset": {
+            "name": "Walker2d-v5",
+            "type": "Walker2d-v5"
+          },
+          "metrics": [
+            {
+              "type": "mean_reward",
+              "value": "6956.61 +/- 15.95",
+              "name": "mean_reward",
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {},
+  "cardData": {
+    "library_name": "stable-baselines3",
+    "tags": [
+      "Walker2d-v5",
+      "deep-reinforcement-learning",
+      "reinforcement-learning",
+      "stable-baselines3"
+    ],
+    "model-index": [
+      {
+        "name": "SAC",
+        "results": [
+          {
+            "task": {
+              "type": "reinforcement-learning",
+              "name": "reinforcement-learning"
+            },
+            "dataset": {
+              "name": "Walker2d-v5",
+              "type": "Walker2d-v5"
+            },
+            "metrics": [
+              {
+                "type": "mean_reward",
+                "value": "6956.61 +/- 15.95",
+                "name": "mean_reward",
+                "verified": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "replay.mp4"
+    },
+    {
+      "rfilename": "results.json"
+    },
+    {
+      "rfilename": "walker2d-v5-SAC-expert.zip"
+    },
+    {
+      "rfilename": "walker2d-v5-SAC-expert/_stable_baselines3_version"
+    },
+    {
+      "rfilename": "walker2d-v5-SAC-expert/actor.optimizer.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-SAC-expert/critic.optimizer.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-SAC-expert/data"
+    },
+    {
+      "rfilename": "walker2d-v5-SAC-expert/ent_coef_optimizer.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-SAC-expert/policy.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-SAC-expert/pytorch_variables.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-SAC-expert/system_info.txt"
+    },
+    {
+      "rfilename": "walker2d-v5-sac-expert.zip"
+    },
+    {
+      "rfilename": "walker2d-v5-sac-expert/_stable_baselines3_version"
+    },
+    {
+      "rfilename": "walker2d-v5-sac-expert/actor.optimizer.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-sac-expert/critic.optimizer.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-sac-expert/data"
+    },
+    {
+      "rfilename": "walker2d-v5-sac-expert/ent_coef_optimizer.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-sac-expert/policy.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-sac-expert/pytorch_variables.pth"
+    },
+    {
+      "rfilename": "walker2d-v5-sac-expert/system_info.txt"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2023-11-06T17:05:46.000Z",
+  "usedStorage": 21908120
+}

@@ -1,0 +1,27 @@
+{
+  "utc": "2026-09-18T04:36:26.662364+00:00",
+  "historical_manifests": {
+    "records/result_hashes.json": {
+      "checked": 64,
+      "updated_navigation_docs": []
+    },
+    "records/followup_result_hashes.json": {
+      "checked": 320,
+      "updated_navigation_docs": [
+        "README.md",
+        "RESULTS.md",
+        "TASK_SELECTION.md"
+      ]
+    },
+    "round3/records/delivery_hashes.json": {
+      "checked": 338,
+      "updated_navigation_docs": []
+    }
+  },
+  "study_locked_inputs": 16,
+  "historical_cli_reproduction_npz_files_exact": 17,
+  "package_modules_parse": 17,
+  "document_links_valid": true,
+  "paper_preview_compiled_without_overfull_or_undefined_items": true,
+  "passed": true
+}

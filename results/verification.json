@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "exact_replay_cases": 6,
+  "projection_cases": 6,
+  "maximum_affine_model_error": 8.952838470577262e-13,
+  "observed_contacts": 30
+}

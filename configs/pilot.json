@@ -1,0 +1,21 @@
+{
+  "development_seeds": [200000, 200001, 200002, 200003, 200004, 200005],
+  "evaluation_seeds": [300000, 300001, 300002, 300003, 300004, 300005, 300006, 300007, 300008, 300009, 300010, 300011],
+  "replicates": 8,
+  "proposal_budget_per_replicate": 64,
+  "speed_caps": [300, 400, 600],
+  "primary_speed_cap": 400,
+  "control_period_seconds": 0.1,
+  "physics_period_seconds": 0.01,
+  "planning_steps": 8,
+  "execution_steps": 8,
+  "total_evaluation_steps": 80,
+  "odd_seed_warmup_steps": 16,
+  "minimum_useful_effect": 0.05,
+  "bootstrap_seed": 72401,
+  "bootstrap_replicates": 10000,
+  "boundary_band_pixels_per_second": 1.0,
+  "route_lateral_threshold_pixels": 10.0,
+  "rotation_threshold_radians": 0.05,
+  "feasibility_tolerance": 0.00001
+}

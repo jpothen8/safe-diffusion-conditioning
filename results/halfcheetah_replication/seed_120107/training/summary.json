@@ -1,0 +1,50 @@
+{
+  "task": "HalfCheetah",
+  "seed": 120107,
+  "steps": 48000,
+  "batch": 512,
+  "horizon_controls": 8,
+  "horizon_seconds": 0.4,
+  "dataset_sha256": "490f0d1cf4e755ca401113b2ee7f536c58ddbd58bba783ad389283953ccd9945",
+  "checkpoint_sha256": "bb9d7e36d0f0a4d0d926e5804a6b5b4c9ecaf3cbbe00398087e583eb3b48d917",
+  "seconds": 37.81139054708183,
+  "selection": "Final fixed-step EMA; no selection by validation, reward or safety.",
+  "logs": [
+    {
+      "step": 8000,
+      "loss": 0.17788688838481903,
+      "validation_loss": 0.17298154532909393,
+      "seconds": 6.4098511771298945
+    },
+    {
+      "step": 16000,
+      "loss": 0.14948958158493042,
+      "validation_loss": 0.13859212398529053,
+      "seconds": 12.69281526003033
+    },
+    {
+      "step": 24000,
+      "loss": 0.12821485102176666,
+      "validation_loss": 0.12554852664470673,
+      "seconds": 18.73478049202822
+    },
+    {
+      "step": 32000,
+      "loss": 0.12112145125865936,
+      "validation_loss": 0.11619969457387924,
+      "seconds": 25.009671858977526
+    },
+    {
+      "step": 40000,
+      "loss": 0.11724434792995453,
+      "validation_loss": 0.11860086768865585,
+      "seconds": 31.342461552936584
+    },
+    {
+      "step": 48000,
+      "loss": 0.11527790874242783,
+      "validation_loss": 0.0964130163192749,
+      "seconds": 37.80378246307373
+    }
+  ]
+}

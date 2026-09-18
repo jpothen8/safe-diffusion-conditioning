@@ -1,0 +1,8 @@
+\subsection{Independent-model replication}
+We froze the previously promising HalfCheetah RMS-0.72 setting and trained eight new models with independent initialization and optimization seeds. The demonstration dataset and episode split were held fixed. Every model was evaluated at the same 64 fresh states with four replicates per state, without retuning or excluding weak models.
+
+Refinement minus repaired BayesFP averaged 16.88 native-return points (95\% crossed model/state bootstrap interval [6.06, 28.29]; model-level t interval [8.83, 24.94]). The mean favored refinement in 7 of eight models. The preregistered useful-advantage criterion was NOT met. The threshold remained 26.19 points.
+
+Conditioning minus projection was +0.98 [-2.70, +4.88]; refinement minus projection was +17.12 [+6.19, +28.18] (secondary descriptive 95\% intervals). These comparisons separate target utility from finite-sampler performance.
+
+There were 0 rejection refusals and 0 hard-output violations. Raw BayesFP violated the initial-chunk constraint in 320/2048 outputs; its repaired arm had zero violations. The study remains conditional on one fixed demonstration dataset and does not establish general posterior accuracy or robust closed-loop diffusion locomotion.

@@ -1,0 +1,12 @@
+{
+  "phase": "development",
+  "snapshot": "results/contact_gate/snapshot_400001_048.json",
+  "setting": {"type": "curtain", "normal": [0.0, 1.0], "bound": 298.28055028944124},
+  "replicates": 32,
+  "budget": 64,
+  "evaluation_steps": 160,
+  "proposal_seed": 810000,
+  "continuation_seed": 820000,
+  "bootstrap_seed": 830000,
+  "output": "results/development_contact_001"
+}

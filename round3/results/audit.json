@@ -1,0 +1,243 @@
+{
+  "checks": {
+    "pendulum_locked_hashes": 9,
+    "Walker2d_locked_hashes": 10,
+    "HalfCheetah_locked_hashes": 10,
+    "downloaded_asset_hashes": 13
+  },
+  "cases": {
+    "pendulum_negative": {
+      "proposals": 32768,
+      "budget_failures": 0,
+      "arms": {
+        "conditional": {
+          "outputs": 512,
+          "unsafe": 0
+        },
+        "projection": {
+          "outputs": 512,
+          "unsafe": 0
+        },
+        "refinement": {
+          "outputs": 512,
+          "unsafe": 0
+        },
+        "bayesfp_32": {
+          "outputs": 512,
+          "unsafe": 71
+        },
+        "bayesfp_32_projected": {
+          "outputs": 512,
+          "unsafe": 0
+        },
+        "bayesfp_12": {
+          "outputs": 512,
+          "unsafe": 71
+        },
+        "bayesfp_12_projected": {
+          "outputs": 512,
+          "unsafe": 0
+        }
+      }
+    },
+    "pendulum_positive": {
+      "proposals": 32768,
+      "budget_failures": 0,
+      "arms": {
+        "conditional": {
+          "outputs": 512,
+          "unsafe": 0
+        },
+        "projection": {
+          "outputs": 512,
+          "unsafe": 0
+        },
+        "refinement": {
+          "outputs": 512,
+          "unsafe": 0
+        },
+        "bayesfp_32": {
+          "outputs": 512,
+          "unsafe": 92
+        },
+        "bayesfp_32_projected": {
+          "outputs": 512,
+          "unsafe": 0
+        },
+        "bayesfp_12": {
+          "outputs": 512,
+          "unsafe": 85
+        },
+        "bayesfp_12_projected": {
+          "outputs": 512,
+          "unsafe": 0
+        }
+      }
+    },
+    "Walker2d_0.72": {
+      "proposals": 16384,
+      "budget_failures": 0,
+      "arms": {
+        "conditional": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "projection": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "refinement": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "bayesfp": {
+          "outputs": 128,
+          "unsafe": 74,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "bayesfp_projected": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        }
+      }
+    },
+    "Walker2d_0.75": {
+      "proposals": 16384,
+      "budget_failures": 0,
+      "arms": {
+        "conditional": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "projection": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "refinement": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [
+            14
+          ],
+          "termination_controls": [
+            13
+          ]
+        },
+        "bayesfp": {
+          "outputs": 128,
+          "unsafe": 25,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "bayesfp_projected": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        }
+      }
+    },
+    "HalfCheetah_0.7": {
+      "proposals": 16384,
+      "budget_failures": 0,
+      "arms": {
+        "conditional": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "projection": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "refinement": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "bayesfp": {
+          "outputs": 128,
+          "unsafe": 49,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "bayesfp_projected": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        }
+      }
+    },
+    "HalfCheetah_0.72": {
+      "proposals": 16384,
+      "budget_failures": 0,
+      "arms": {
+        "conditional": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "projection": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "refinement": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "bayesfp": {
+          "outputs": 128,
+          "unsafe": 23,
+          "terminated_rows": [],
+          "termination_controls": []
+        },
+        "bayesfp_projected": {
+          "outputs": 128,
+          "unsafe": 0,
+          "terminated_rows": [],
+          "termination_controls": []
+        }
+      }
+    }
+  },
+  "training": {
+    "Walker2d": {
+      "group_split_disjoint": true,
+      "train_only_normalizer_exact": true,
+      "complete_episodes_replayed": 2,
+      "observation_float32_error": 0.0,
+      "reward_error": 0.0
+    },
+    "HalfCheetah": {
+      "group_split_disjoint": true,
+      "train_only_normalizer_exact": true,
+      "complete_episodes_replayed": 2,
+      "observation_float32_error": 0.0,
+      "reward_error": 0.0
+    }
+  },
+  "passed": true
+}

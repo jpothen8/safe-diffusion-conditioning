@@ -1,0 +1,22 @@
+{
+  "retrieved_utc": "2026-09-14T18:31:42Z",
+  "source": {
+    "url": "https://github.com/real-stanford/diffusion_policy",
+    "revision": "5ba07ac6661db573af695b419a7947ecb704690f",
+    "license": "MIT",
+    "license_file": "vendor/diffusion_policy/LICENSE",
+    "file_hashes": "records/vendor_hashes.json"
+  },
+  "checkpoint": {
+    "url": "https://diffusion-policy.cs.columbia.edu/data/experiments/low_dim/pusht/diffusion_policy_transformer/train_0/checkpoints/epoch%3D0850-test_mean_score%3D0.967.ckpt",
+    "path": "assets/pusht_transformer.ckpt",
+    "bytes": 143687633,
+    "sha256": "fa302d345467ef5927d60f3fd7cdd222e1ee8fda52216ca64323a08e2ce700a8",
+    "revision": "Author release: train_0, epoch 0850; no server version identifier; pinned by SHA256",
+    "license": "No checkpoint-specific license found in the release listing. Source repository is MIT; no separate weights grant is assumed."
+  },
+  "candidate_resources": "records/candidate_sources.json",
+  "extra_sources": "records/extra_sources.json",
+  "dependency_versions": "requirements.lock.txt",
+  "dependency_licenses": "records/dependency_licenses.json"
+}

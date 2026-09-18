@@ -1,0 +1,124 @@
+{
+  "task": "Walker2d",
+  "selection": "minimum repaired MMD on fixed development states, no reward objective",
+  "cases": {
+    "0.72": {
+      "20": {
+        "particles": 32,
+        "strength": 20,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 31.994647979736328,
+        "ess_min": 31.93105697631836,
+        "unique_initial_ancestors_mean": 22.5625,
+        "safe_fraction": 0.40625,
+        "repaired_mmd": 0.1931620003178958,
+        "seconds": 0.5602133839856833
+      },
+      "100": {
+        "particles": 32,
+        "strength": 100,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 31.921110153198242,
+        "ess_min": 30.826820373535156,
+        "unique_initial_ancestors_mean": 10.03125,
+        "safe_fraction": 0.40625,
+        "repaired_mmd": 0.18222281860029835,
+        "seconds": 0.3962275350932032
+      },
+      "500": {
+        "particles": 32,
+        "strength": 500,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 29.890766143798828,
+        "ess_min": 8.841389656066895,
+        "unique_initial_ancestors_mean": 1.09375,
+        "safe_fraction": 0.5625,
+        "repaired_mmd": 0.23511560539801477,
+        "seconds": 0.3862614990212023
+      },
+      "2000": {
+        "particles": 32,
+        "strength": 2000,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 22.19744110107422,
+        "ess_min": 1.048401951789856,
+        "unique_initial_ancestors_mean": 1.0,
+        "safe_fraction": 0.75,
+        "repaired_mmd": 0.2678728634244269,
+        "seconds": 0.39635732001625
+      },
+      "10000": {
+        "particles": 32,
+        "strength": 10000,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 19.38679313659668,
+        "ess_min": 1.0,
+        "unique_initial_ancestors_mean": 1.0,
+        "safe_fraction": 0.90625,
+        "repaired_mmd": 0.20823273244284257,
+        "seconds": 0.4081658918876201
+      }
+    },
+    "0.75": {
+      "20": {
+        "particles": 32,
+        "strength": 20,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 31.995532989501953,
+        "ess_min": 31.941471099853516,
+        "unique_initial_ancestors_mean": 23.78125,
+        "safe_fraction": 0.84375,
+        "repaired_mmd": 0.14126815215191332,
+        "seconds": 0.41175564005970955
+      },
+      "100": {
+        "particles": 32,
+        "strength": 100,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 31.934839248657227,
+        "ess_min": 31.016191482543945,
+        "unique_initial_ancestors_mean": 10.8125,
+        "safe_fraction": 0.96875,
+        "repaired_mmd": 0.16120500542642013,
+        "seconds": 0.41160581400617957
+      },
+      "500": {
+        "particles": 32,
+        "strength": 500,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 30.206863403320312,
+        "ess_min": 9.435532569885254,
+        "unique_initial_ancestors_mean": 1.21875,
+        "safe_fraction": 0.9375,
+        "repaired_mmd": 0.20099256098879661,
+        "seconds": 0.38610493298619986
+      },
+      "2000": {
+        "particles": 32,
+        "strength": 2000,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 22.726276397705078,
+        "ess_min": 1.0604761838912964,
+        "unique_initial_ancestors_mean": 1.0,
+        "safe_fraction": 0.96875,
+        "repaired_mmd": 0.22608490317773972,
+        "seconds": 0.4244562699459493
+      },
+      "10000": {
+        "particles": 32,
+        "strength": 10000,
+        "score_evaluations_per_output": 3200,
+        "ess_mean": 20.066246032714844,
+        "ess_min": 1.0,
+        "unique_initial_ancestors_mean": 1.0,
+        "safe_fraction": 0.96875,
+        "repaired_mmd": 0.26841759407131516,
+        "seconds": 0.42393991514109075
+      }
+    }
+  },
+  "selected_strengths": {
+    "0.72": 100,
+    "0.75": 20
+  }
+}

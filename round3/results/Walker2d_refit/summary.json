@@ -1,0 +1,50 @@
+{
+  "task": "Walker2d",
+  "horizon": 12,
+  "horizon_seconds": 0.096,
+  "steps": 48000,
+  "batch": 512,
+  "seed": 92300,
+  "sampling": "half uniform training chunks, half training chunks beginning within episode first two seconds",
+  "normalization": "training episodes only, unchanged group split",
+  "checkpoint_sha256": "2f2f63b5758dd723366a7c4f34326f0c0f8c977eec4b9c8ec1d98220235ba03b",
+  "seconds": 52.755705025047064,
+  "logs": [
+    {
+      "step": 8000,
+      "loss": 0.15968652069568634,
+      "validation_loss": 0.1711753010749817,
+      "seconds": 8.890629334142432
+    },
+    {
+      "step": 16000,
+      "loss": 0.15477745234966278,
+      "validation_loss": 0.14125506579875946,
+      "seconds": 17.71136338612996
+    },
+    {
+      "step": 24000,
+      "loss": 0.14396150410175323,
+      "validation_loss": 0.1298667937517166,
+      "seconds": 26.523737410083413
+    },
+    {
+      "step": 32000,
+      "loss": 0.11678126454353333,
+      "validation_loss": 0.12183108925819397,
+      "seconds": 35.33882628916763
+    },
+    {
+      "step": 40000,
+      "loss": 0.1183137372136116,
+      "validation_loss": 0.11708851903676987,
+      "seconds": 44.156914541032165
+    },
+    {
+      "step": 48000,
+      "loss": 0.10405658185482025,
+      "validation_loss": 0.11469471454620361,
+      "seconds": 52.75059870118275
+    }
+  ]
+}

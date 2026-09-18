@@ -1,0 +1,136 @@
+{
+  "contact_snapshots": 48,
+  "screen_snapshots": 48,
+  "settings_total": 1680,
+  "settings_with_projected_outcomes": 232,
+  "projection_calls": 3712,
+  "projection_failures": 0,
+  "top_screens": [
+    {
+      "snapshot": "400015_048",
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 25,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": 61.369994297160055
+      },
+      "acceptance": 0.515625,
+      "difference": 0.02699489770336222
+    },
+    {
+      "snapshot": "400001_064",
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 25,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": -281.65847013125415
+      },
+      "acceptance": 0.15625,
+      "difference": 0.01789099845185893
+    },
+    {
+      "snapshot": "400001_048",
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 25,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 298.28055028944124
+      },
+      "acceptance": 0.25,
+      "difference": 0.013996357478532784
+    },
+    {
+      "snapshot": "400010_064",
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 0,
+        "offset": 25,
+        "normal": [
+          1.0,
+          0.0
+        ],
+        "bound": 210.83102126660418
+      },
+      "acceptance": 0.84375,
+      "difference": 0.013943398922556138
+    },
+    {
+      "snapshot": "400010_064",
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 315,
+        "offset": 10,
+        "normal": [
+          0.7071067811865474,
+          -0.7071067811865477
+        ],
+        "bound": -10.825203850083348
+      },
+      "acceptance": 0.875,
+      "difference": 0.01393007718569128
+    }
+  ],
+  "macro_snapshots": 7,
+  "macro_settings": 315,
+  "macro_screened": 48,
+  "macro_projection_failures": 0,
+  "macro_best": [
+    {
+      "snapshot": "400001_048",
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 180,
+        "offset": 50,
+        "normal": [
+          -1.0,
+          1.2246467991473532e-16
+        ],
+        "bound": -261.84397870339
+      },
+      "acceptance": 0.09375,
+      "difference": 0.046527737530179025
+    },
+    {
+      "snapshot": "400002_048",
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 135,
+        "offset": 100,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865476
+        ],
+        "bound": 71.38344804341116
+      },
+      "acceptance": 0.109375,
+      "difference": 0.03194621097058481
+    },
+    {
+      "snapshot": "400002_048",
+      "setting": {
+        "type": "curtain",
+        "angle_degrees": 90,
+        "offset": 50,
+        "normal": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "bound": 276.80960017788254
+      },
+      "acceptance": 0.40625,
+      "difference": 0.028721318405850682
+    }
+  ]
+}

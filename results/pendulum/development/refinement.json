@@ -1,0 +1,36 @@
+{
+  "negative": {
+    "final_only": {
+      "return": -375.8106967445052,
+      "seconds": 2.0896086550783366,
+      "safety_boundary": 0.0
+    },
+    "annealed": {
+      "return": -366.45204483646353,
+      "seconds": 1.958795655053109,
+      "safety_boundary": 0.0
+    },
+    "annealed_long": {
+      "return": -366.7568322561589,
+      "seconds": 7.995122246909887,
+      "safety_boundary": 0.0
+    }
+  },
+  "positive": {
+    "final_only": {
+      "return": -377.33473501970707,
+      "seconds": 1.9725358518771827,
+      "safety_boundary": 0.0
+    },
+    "annealed": {
+      "return": -377.9990734661021,
+      "seconds": 1.990316211944446,
+      "safety_boundary": 0.0
+    },
+    "annealed_long": {
+      "return": -377.83419361305505,
+      "seconds": 7.692618804052472,
+      "safety_boundary": 0.0
+    }
+  }
+}

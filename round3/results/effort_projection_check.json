@@ -1,0 +1,6 @@
+{
+  "independent_socp_cases": 36,
+  "maximum_rms_solution_difference": 7.89039732179227e-06,
+  "torch_max_rms_violation": 8.344650270775134e-08,
+  "passed": true
+}

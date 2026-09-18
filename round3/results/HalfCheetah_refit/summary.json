@@ -1,0 +1,50 @@
+{
+  "task": "HalfCheetah",
+  "horizon": 8,
+  "horizon_seconds": 0.4,
+  "steps": 48000,
+  "batch": 512,
+  "seed": 92300,
+  "sampling": "half uniform training chunks, half training chunks beginning within episode first two seconds",
+  "normalization": "training episodes only, unchanged group split",
+  "checkpoint_sha256": "b1d99684fb26e34da372955bdf13eaf71abd99398269c87fedba85f7908c14dc",
+  "seconds": 51.99595331191085,
+  "logs": [
+    {
+      "step": 8000,
+      "loss": 0.177226722240448,
+      "validation_loss": 0.16052232682704926,
+      "seconds": 8.895652431994677
+    },
+    {
+      "step": 16000,
+      "loss": 0.16359557211399078,
+      "validation_loss": 0.13216529786586761,
+      "seconds": 17.51433620788157
+    },
+    {
+      "step": 24000,
+      "loss": 0.14522522687911987,
+      "validation_loss": 0.11863739788532257,
+      "seconds": 26.13383571896702
+    },
+    {
+      "step": 32000,
+      "loss": 0.12035386264324188,
+      "validation_loss": 0.12172707170248032,
+      "seconds": 34.75126854889095
+    },
+    {
+      "step": 40000,
+      "loss": 0.12607792019844055,
+      "validation_loss": 0.11241805553436279,
+      "seconds": 43.3710217338521
+    },
+    {
+      "step": 48000,
+      "loss": 0.11204825341701508,
+      "validation_loss": 0.10432025790214539,
+      "seconds": 51.991041969973594
+    }
+  ]
+}

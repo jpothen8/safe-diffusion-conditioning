@@ -1,0 +1,173 @@
+[
+  {
+    "url": "https://huggingface.co/api/models/sb3/td3-Pendulum-v1?blobs=true",
+    "path": "records/td3-Pendulum-v1_api.json",
+    "bytes": 3717,
+    "sha256": "0e4da296f935045c753c7d93dbeacd92803d7a50153936c7b731cd8ac9a92e58",
+    "revision": "f200e871a887a68eec2265f1c6ff366cfbf40ea8"
+  },
+  {
+    "url": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/README.md",
+    "path": "records/td3-Pendulum-v1/README.md",
+    "bytes": 1962,
+    "sha256": "83b97fb261fe8c5a9102c826c5b423a519b78835b4ff1dce2a8efe7d444d16a8"
+  },
+  {
+    "url": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/config.yml",
+    "path": "records/td3-Pendulum-v1/config.yml",
+    "bytes": 406,
+    "sha256": "cd79fe3590638c39ded9affb180ea614356d332c290a8e88b23b50d99c5344f4"
+  },
+  {
+    "url": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/results.json",
+    "path": "records/td3-Pendulum-v1/results.json",
+    "bytes": 159,
+    "sha256": "2bb8362e1d7daed3bf4b7619df9fa733ea79bd9183844d24a54f534b83495736"
+  },
+  {
+    "url": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/args.yml",
+    "path": "records/td3-Pendulum-v1/args.yml",
+    "bytes": 875,
+    "sha256": "63c01e7a8c689f85171d639397db4f170889e8ca1e6429b81f77c04e013bf506"
+  },
+  {
+    "url": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/td3-Pendulum-v1.zip",
+    "http_status": 200,
+    "revision": "f200e871a887a68eec2265f1c6ff366cfbf40ea8",
+    "file_metadata": {
+      "rfilename": "td3-Pendulum-v1.zip",
+      "blobId": "5e126f5027c32609635ad6090497059b8ed00c76",
+      "size": 5920968,
+      "lfs": {
+        "sha256": "9597e5a20703d74786afc8e5f48d98b378816ad8743ee62e2a278483bc565823",
+        "size": 5920968,
+        "pointerSize": 132
+      }
+    },
+    "license": "not specified"
+  },
+  {
+    "url": "https://huggingface.co/api/models/sb3/sac-Walker2d-v3?blobs=true",
+    "path": "records/sac-Walker2d-v3_api.json",
+    "bytes": 3953,
+    "sha256": "08637901a45cbf99e1cba5e5c02515d72128b00aa1e5a6f5542def1a6add162d",
+    "revision": "82149cc39deff447604a2af02e735af3f0f9521a"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Walker2d-v3/resolve/82149cc39deff447604a2af02e735af3f0f9521a/README.md",
+    "path": "records/sac-Walker2d-v3/README.md",
+    "bytes": 1676,
+    "sha256": "66b042a9a4ef589daaef15fee2e202ad28d4c0f9c55faac48c67e3010021073e"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Walker2d-v3/resolve/82149cc39deff447604a2af02e735af3f0f9521a/config.yml",
+    "path": "records/sac-Walker2d-v3/config.yml",
+    "bytes": 169,
+    "sha256": "bc09d5caab7d4c93f7b159148ec3c9beaa4dd5925b956b54bfa75da2c22bdacd"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Walker2d-v3/resolve/82149cc39deff447604a2af02e735af3f0f9521a/results.json",
+    "path": "records/sac-Walker2d-v3/results.json",
+    "bytes": 163,
+    "sha256": "066342a5912536b6358b537425a0153fc32e5f09d9b8a8af3897f3b5e130401e"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Walker2d-v3/resolve/82149cc39deff447604a2af02e735af3f0f9521a/args.yml",
+    "path": "records/sac-Walker2d-v3/args.yml",
+    "bytes": 970,
+    "sha256": "236315fccd3c8d214b56433034a6157f72d353f10a4d7a90a6446ebcddf69b3f"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Walker2d-v3/resolve/82149cc39deff447604a2af02e735af3f0f9521a/sac-Walker2d-v3.zip",
+    "http_status": 200,
+    "revision": "82149cc39deff447604a2af02e735af3f0f9521a",
+    "file_metadata": {
+      "rfilename": "sac-Walker2d-v3.zip",
+      "blobId": "a354258a5977fdafef502afd87ced1386d39f4af",
+      "size": 3236549,
+      "lfs": {
+        "sha256": "cb749324e176bd3aa3a18309bac05ca0e050f86aa461f4e4835c9be5c3ebc262",
+        "size": 3236549,
+        "pointerSize": 132
+      }
+    },
+    "license": "not specified"
+  },
+  {
+    "url": "https://huggingface.co/api/models/sb3/sac-Humanoid-v3?blobs=true",
+    "path": "records/sac-Humanoid-v3_api.json",
+    "bytes": 3957,
+    "sha256": "e235e37f64a7003c91f4cffa2f7841e838ee54bcf669e281b7a7ea211c2dd67f",
+    "revision": "45673ecd6008435dbded233341b344057d1c3a61"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Humanoid-v3/resolve/45673ecd6008435dbded233341b344057d1c3a61/README.md",
+    "path": "records/sac-Humanoid-v3/README.md",
+    "bytes": 1643,
+    "sha256": "e306030e211ba68d446373ef2d0d36e19eb56e4f16b4077b2f16e58477a22330"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Humanoid-v3/resolve/45673ecd6008435dbded233341b344057d1c3a61/config.yml",
+    "path": "records/sac-Humanoid-v3/config.yml",
+    "bytes": 143,
+    "sha256": "fd7ae4d09041485552ebf6b5104c7efaabc55d95d00d8aca83fe7e2a4cfeee32"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Humanoid-v3/resolve/45673ecd6008435dbded233341b344057d1c3a61/results.json",
+    "path": "records/sac-Humanoid-v3/results.json",
+    "bytes": 163,
+    "sha256": "bda501c7525c48b61bd4d3ea2a77f86978304a6959e7ff916a1ac32d609073ad"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Humanoid-v3/resolve/45673ecd6008435dbded233341b344057d1c3a61/args.yml",
+    "path": "records/sac-Humanoid-v3/args.yml",
+    "bytes": 955,
+    "sha256": "4a5d586eadd75b5561baa47871a62963dc9f56d0324cbc29909d0bab3b6ca7c8"
+  },
+  {
+    "url": "https://huggingface.co/sb3/sac-Humanoid-v3/resolve/45673ecd6008435dbded233341b344057d1c3a61/sac-Humanoid-v3.zip",
+    "http_status": 200,
+    "revision": "45673ecd6008435dbded233341b344057d1c3a61",
+    "file_metadata": {
+      "rfilename": "sac-Humanoid-v3.zip",
+      "blobId": "f545b4e1df534d0343fcb3127f5e8838dc28dbe3",
+      "size": 7459026,
+      "lfs": {
+        "sha256": "2207ceaadea95a63534d7ac283cbdbfb265b20a4f782c9efa1a9cbf34264ea09",
+        "size": 7459026,
+        "pointerSize": 132
+      }
+    },
+    "license": "not specified"
+  },
+  {
+    "url": "https://gymnasium.farama.org/environments/mujoco/humanoid/",
+    "path": "records/humanoid_docs.html",
+    "bytes": 91349,
+    "sha256": "0b35c9c38dffd74f7d84c156dc8d49b40b7d563974ab5489e350fe54b7730c8b"
+  },
+  {
+    "url": "https://gymnasium.farama.org/environments/mujoco/walker2d/",
+    "path": "records/walker_docs.html",
+    "bytes": 66029,
+    "sha256": "ddc4ab40d8b7818f1e03e7db683c371881c9bae30df3d5b31883f978a679b12f"
+  },
+  {
+    "url": "https://gymnasium.farama.org/environments/classic_control/pendulum/",
+    "path": "records/pendulum_docs.html",
+    "bytes": 47851,
+    "sha256": "c4e1c49a05466ef0575c684876011b0a2d0277e4acf7b65e1dad3b08821bfd5d"
+  },
+  {
+    "url": "https://pytorch.org/blog/pytorch-2-7/",
+    "path": "records/pytorch_blackwell.html",
+    "bytes": 175582,
+    "sha256": "3a95bfa28e587dd12b702ca2e9d906d69535201257e57441b5834866496c36a2"
+  },
+  {
+    "url": "https://developer.nvidia.com/cuda/gpus",
+    "path": "records/nvidia_compute.html",
+    "bytes": 24685,
+    "sha256": "82c8ec7f1ce0e0a3b4f5e13e4fbc11ddf4e62f7825acf803149de5c93e7a5fc2"
+  }
+]

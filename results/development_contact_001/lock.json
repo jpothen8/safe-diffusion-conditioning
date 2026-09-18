@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-14T18:53:49Z",
+  "config": {
+    "phase": "development",
+    "snapshot": "results/contact_gate/snapshot_400001_048.json",
+    "setting": {
+      "type": "curtain",
+      "normal": [
+        0.0,
+        1.0
+      ],
+      "bound": 298.28055028944124
+    },
+    "replicates": 32,
+    "budget": 64,
+    "evaluation_steps": 160,
+    "proposal_seed": 810000,
+    "continuation_seed": 820000,
+    "bootstrap_seed": 830000,
+    "output": "results/development_contact_001"
+  },
+  "hashes": {
+    "configs/development_contact_001.json": "698dba25660810592d35a453a414c1db48e73b5bc29dd6cd85883b914ce7a33c",
+    "src/compare_setting.py": "8448adba826518582a36d3bf9e10d00c382004bd922dc74fd8d53648611c648f",
+    "src/round2_common.py": "6fdc121be580dfbfff5427674400ca8992135559802da13d0b7c93c212f5d6b8",
+    "src/curtain.py": "ba505c44e2c1a506642b68f1af9342c369803d6d90382a5c0ca907fc264f88e7",
+    "src/core.py": "c51eb79c3ec6ec555be4f3aa11eaadf0b3dff837d51954d1c8be76a35216143d",
+    "src/safety.py": "6f46b390faa8fead8ba4c891e7f89ec00cfbe26bec24bd259e9fdc4e1dcea78c"
+  }
+}
