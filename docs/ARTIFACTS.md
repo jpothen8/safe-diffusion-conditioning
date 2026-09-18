@@ -11,7 +11,7 @@ The root [RESULTS.md](../RESULTS.md) consolidates the conclusions. Per-experimen
 | Eight-model HalfCheetah replication | [Protocol](protocols/halfcheetah_replication.md) | [Report](../results/halfcheetah_replication/RESULTS.md), [audit](../results/halfcheetah_replication/audit.json) |
 | Supplied-safe-set error | [Exploratory protocol](protocols/safe_set_mismatch.md) | [Report](../results/safe_set_mismatch/RESULTS.md), [audit](../results/safe_set_mismatch/audit.json) |
 
-Public external weights are described in [assets.json](../records/assets.json); they are downloaded with hashes, never bundled in the repository or research release. The release contains generated episodes, our trained diffusion weights and raw arrays for the reported experiments. The [reproduction guide](REPRODUCTION.md) explains restoration and regeneration.
+Public external weights are described in [assets.json](../records/assets.json); they are downloaded with hashes, never bundled in the repository or research release. The prepared, currently unpublished archive contains generated episodes, our trained diffusion weights and raw arrays for the reported experiments. The [reproduction guide](REPRODUCTION.md) explains restoration and regeneration.
 
 [requirements.lock.txt](../requirements.lock.txt) is the single tested environment. [path_migration.json](../records/path_migration.json) resolves old artifact names. The `pre-consolidation` Git tag contains exact old scientific source/protocol bytes. No original proposal or failed outcome was dropped by moving files; duplicate reruns and dependency caches are not publication assets.
 

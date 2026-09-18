@@ -70,8 +70,13 @@ def fetch_results():
         else:
             missing.append(name)
     if not missing:
-        print("All generated research artifacts already match the release.")
+        print("All generated research artifacts already match the archive manifest.")
         return
+    if manifest.get("publication_status") == "prepared_not_published":
+        raise FileNotFoundError(
+            "The optional raw-data/model archive has not been published. "
+            "Use the collection and training commands in docs/REPRODUCTION.md."
+        )
     cache = PROJECT / ".cache" / manifest["filename"]
     cache.parent.mkdir(parents=True, exist_ok=True)
     if not cache.exists():

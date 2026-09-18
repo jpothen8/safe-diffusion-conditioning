@@ -6,6 +6,6 @@ The common modules implement the DDPM architecture/scheduler/sampling loop, firs
 
 Unused exploratory drivers, repeated setup scripts, copied samplers, duplicate reports and the overlay environment are removed from the active tree. The `pre-consolidation` Git tag preserves them, rather than retaining a second executable codebase. Recorded measured data and model checkpoints were moved without changing their contents; old locks use the migration map and Git history for verification.
 
-The [reproduction guide](REPRODUCTION.md) is the command reference; [RESULTS.md](../RESULTS.md) is the consolidated scientific conclusion. The public release separates generated raw arrays and trained research checkpoints from Git. Public external checkpoints remain source downloads with explicit license uncertainty.
+The [reproduction guide](REPRODUCTION.md) is the command reference; [RESULTS.md](../RESULTS.md) is the consolidated scientific conclusion. The optional archive separates generated raw arrays and trained research checkpoints from Git; its publication is pending. Public external checkpoints remain source downloads with explicit license uncertainty.
 
 Validation records: [CPU/native/projection checks](../records/unified_checks.json), [task reproduction](../records/unified_reproduction.json), [repository verification](../records/repository_audit.json). These checks are generated from the executed cleanup, not assumptions of numerical equivalence.

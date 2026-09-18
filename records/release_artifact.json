@@ -403,5 +403,6 @@
     "results/safe_set_mismatch/seed_120107/projection_margin_1pct.npz": "1b6246df64b9121636925b2384cbbdfee3685a9b2304c521a37d414a6c881787",
     "results/safe_set_mismatch/seed_120107/selection.npz": "79316f18a497232e2c52c60e694a3668f6e8a13419316e2caa7bc89c483bdb5b"
   },
-  "contents": "Generated episodes, trained diffusion models and simulation outputs. No external checkpoint archives."
+  "contents": "Generated episodes, trained diffusion models and simulation outputs. No external checkpoint archives.",
+  "publication_status": "prepared_not_published"
 }
