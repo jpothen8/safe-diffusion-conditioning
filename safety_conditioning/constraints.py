@@ -1,7 +1,33 @@
 """Global full-chunk projection onto an RMS command budget and action box."""
+
 from dataclasses import dataclass
 import numpy as np
 import torch
+
+
+@dataclass(frozen=True)
+class BoxLimit:
+    lower: float
+    upper: float
+    tolerance: float = 1e-7
+
+    def __post_init__(self):
+        if self.lower >= self.upper:
+            raise ValueError("The safety box must have nonempty interior.")
+
+    def feasible(self, actions, *, numerical_tolerance=True):
+        tol = self.tolerance if numerical_tolerance else 0.0
+        return (
+            np.isfinite(actions).all(-1)
+            & (actions >= self.lower - tol).all(-1)
+            & (actions <= self.upper + tol).all(-1)
+        )
+
+    def project(self, actions):
+        return np.clip(actions, self.lower, self.upper)
+
+    def project_torch(self, actions):
+        return actions.clamp(self.lower, self.upper)
 
 
 @dataclass(frozen=True)
@@ -56,4 +82,3 @@ class EffortLimit:
                 high = torch.where(feasible, high, mid)
             result[complicated] = (values * low).clamp(-1, 1)
         return result
-

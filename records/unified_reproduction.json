@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "tasks": {
+    "HalfCheetah": {
+      "npz_files": 17,
+      "arrays": 99,
+      "all_original_arrays_bitwise_equal": true,
+      "initial_states_or_full_snapshots_identical": true
+    },
+    "Walker2d": {
+      "npz_files": 17,
+      "arrays": 99,
+      "all_original_arrays_bitwise_equal": true,
+      "initial_states_or_full_snapshots_identical": true
+    },
+    "pendulum": {
+      "npz_files": 21,
+      "arrays": 95,
+      "all_original_arrays_bitwise_equal": true,
+      "initial_states_or_full_snapshots_identical": true
+    }
+  },
+  "pusht_native_smoke": {
+    "passed": true,
+    "cases": [
+      {
+        "seed": 201001,
+        "substeps": 80,
+        "model_error": 4.1389114358025836e-13,
+        "solver": "identity"
+      },
+      {
+        "seed": 201002,
+        "substeps": 80,
+        "model_error": 7.389644451905042e-13,
+        "solver": "optimal"
+      }
+    ]
+  }
+}

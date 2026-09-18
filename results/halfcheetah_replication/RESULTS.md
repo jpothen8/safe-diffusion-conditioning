@@ -51,6 +51,6 @@ The mean independent Q-versus-Q MMD is 0.080. These pooled action-kernel diagnos
 
 Each bank contains 32,768 proposals (128/request), all saved. Logical first-accept costs are saved separately. R uses 1,024 refinement scores plus its shared 100-step base draw; B uses 3,200 scores. Timing is batched on the recorded workstation, not an isolated online latency benchmark. Sampling settings were not retuned on these new models or states.
 
-[Locked protocol](../../docs/HALFCHEETAH_REPLICATION.md) · [Config/code/asset hashes](lock.json) · [All-model summary](summary.json) · [CSV](table.csv) · [Audit](audit.json) · [Figure](model_comparison.pdf)
+[Locked protocol](../../docs/protocols/halfcheetah_replication.md) · [Config/code/asset hashes](lock.json) · [All-model summary](summary.json) · [CSV](table.csv) · [Audit](audit.json) · [Figure](model_comparison.pdf)
 
 The consolidation first matched the historical base sampler, refinement, BayesFP particles and native rollouts bit for bit. The fresh public-controller collection reproduced the original complete-episode archive byte for byte. These checks protect implementation fidelity; the eight new training seeds provide the independent-model evidence.

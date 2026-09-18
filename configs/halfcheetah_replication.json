@@ -1,7 +1,7 @@
 {
   "task": "HalfCheetah",
-  "dataset": "round3/results/HalfCheetah_training/episodes.npz",
-  "protocol": "docs/HALFCHEETAH_REPLICATION.md",
+  "dataset": "data/HalfCheetah_episodes.npz",
+  "protocol": "docs/protocols/halfcheetah_replication.md",
   "training_seeds": [120100, 120101, 120102, 120103, 120104, 120105, 120106, 120107],
   "training_steps": 48000,
   "horizon_controls": 8,

@@ -10,7 +10,7 @@
 
 The primary mean is below the fixed **26.19-point** useful-effect threshold. Refinement wins over repaired BayesFP in 7/8 model means; the model-level t interval is [8.83,24.94]. All 10,240 method requests are retained. There are **zero rejection refusals and zero hard-output violations**. Raw BayesFP violates the initial-chunk constraint in **320/2,048** outputs. Poor trajectories are retained: nonpositive-return counts are 52 for conditioning, 52 for projection, 40 for refinement, and 42 for repaired BayesFP. HalfCheetah has no native unhealthy termination, so zero terminations is not evidence of general stability.
 
-[Full report](results/halfcheetah_replication/RESULTS.md) · [Per-model figure](results/halfcheetah_replication/model_comparison.pdf) · [Audit](results/halfcheetah_replication/audit.json) · [Locked protocol](docs/HALFCHEETAH_REPLICATION.md).
+[Full report](results/halfcheetah_replication/RESULTS.md) · [Per-model figure](results/halfcheetah_replication/model_comparison.pdf) · [Audit](results/halfcheetah_replication/audit.json) · [Locked protocol](docs/protocols/halfcheetah_replication.md).
 
 ## How this changes the paper
 
@@ -56,4 +56,4 @@ For the robustness claim, proceed next with **a calibrated dynamic-safe-set erro
 
 One maintained package and CLI cover collection, training, sampling, evaluation, uncertainty, audits and reporting. Compatibility checks reproduce the historical base sampler, refinement, BayesFP particle cloud and native rollouts bit for bit. Fresh complete-episode collection reproduces the original archive byte for byte. The independent audit verifies all new first-feasible selections, projections, checkpoint hashes, normalizers and bootstrap intervals; native replay reward/state errors are zero.
 
-Earlier evidence is preserved: [original Push-T report](docs/history/2026-09-14_RESULTS.md), [Pendulum confirmation](ROUND2_RESULTS.md), and [three-task BayesFP comparison](round3/RESULTS.md). Full artifacts are indexed in [ARTIFACTS.md](docs/ARTIFACTS.md). Use [README.md](README.md) for consolidated commands and [PAPER_INTEGRATION.md](docs/PAPER_INTEGRATION.md) for current draft text.
+Earlier evidence is preserved: [original Push-T report](results/heldout/RESULTS.md), [Pendulum confirmation](results/pendulum/RESULTS.md), and [three-task BayesFP comparison](results/comparison_figures/RESULTS.md). Full artifacts are indexed in [ARTIFACTS.md](docs/ARTIFACTS.md). Use [README.md](README.md) for consolidated commands and [PAPER_INTEGRATION.md](docs/PAPER_INTEGRATION.md) for current draft text.

@@ -1,0 +1,20 @@
+{
+  "device": "cpu",
+  "initialization_seeds": {
+    "HalfCheetah": 190000,
+    "Walker2d": 190001,
+    "Pendulum": 190002
+  },
+  "sampling_seeds": [
+    191001,
+    191002,
+    191003
+  ],
+  "source_hashes": {
+    "round3/src/chunk_model.py": "df772b0ee6c7eaa1c3349cf1e194f674cd4fd4c72c495b34c05d9fcd8f4f26bf",
+    "round3/src/effort.py": "efcecd1d6e81ec3c89e29cda6c9adb723bef021f2eff34c1e38971f4cae8c827",
+    "round3/src/bayesfp.py": "1ae2806b755da0b64201a6de04b5b9588d7519113e4663a4f0b0fff4783e70b2",
+    "src/pendulum_train.py": "24e313376f06a2a3c330457c48f9702df3e37b3857e461fa1198cbc8afd6e2e0",
+    "src/pendulum_refine.py": "6622d9c907c682ec55049cf213fa36be35f58d2927a3833a1fbc757575ba1a3e"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "HalfCheetah": {
+    "base_refinement_bayesfp_and_particles_bitwise_equal_to_original_cpu_fixtures": true
+  },
+  "Walker2d": {
+    "base_refinement_bayesfp_and_particles_bitwise_equal_to_original_cpu_fixtures": true
+  },
+  "Pendulum": {
+    "base_refinement_bayesfp_and_particles_bitwise_equal_to_original_cpu_fixtures": true
+  },
+  "passed": true,
+  "explicit_refusals": true,
+  "independent_global_socp_solves": 9,
+  "max_projection_coordinate_error": 2.2258151316512098e-05,
+  "pendulum_native_max_error": 0.0,
+  "mujoco_full_snapshot_replay_exact": true
+}

@@ -1,8 +1,0 @@
-{
-  "task": "HalfCheetah",
-  "episodes": 128,
-  "controls": 128000,
-  "collection_seed_start": 92000,
-  "split_seed": 92100,
-  "sha256": "490f0d1cf4e755ca401113b2ee7f536c58ddbd58bba783ad389283953ccd9945"
-}

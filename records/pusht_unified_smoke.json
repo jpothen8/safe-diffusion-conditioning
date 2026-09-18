@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "seed": 201001,
+      "substeps": 80,
+      "model_error": 4.1389114358025836e-13,
+      "solver": "identity"
+    },
+    {
+      "seed": 201002,
+      "substeps": 80,
+      "model_error": 7.389644451905042e-13,
+      "solver": "optimal"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "assets": [
+    {
+      "url": "https://huggingface.co/farama-minari/Walker2d-v5-SAC-expert/resolve/2b0ab400beed313a86d84bd82a6e120aa89a61e3/walker2d-v5-SAC-expert.zip",
+      "path": "assets/Walker2d-v5-SAC-expert.zip",
+      "bytes": 3242595,
+      "sha256": "1aa916f8baa4d1ff8a2f03e76acef5d44cdba60a4ab0b4337dda2aa55135c0a6",
+      "repo": "farama-minari/Walker2d-v5-SAC-expert",
+      "revision": "2b0ab400beed313a86d84bd82a6e120aa89a61e3",
+      "license": "Not declared in inspected metadata",
+      "task_group": "locomotion"
+    },
+    {
+      "url": "https://huggingface.co/farama-minari/Walker2d-v5-SAC-medium/resolve/34849cc1de5a527889798837a744dd55c52edef6/walker2d-v5-SAC-medium.zip",
+      "path": "assets/Walker2d-v5-SAC-medium.zip",
+      "bytes": 3242585,
+      "sha256": "57e909eed1b99e22e520f032bc6a69c096957059a822709b9af5b47ebc7afc7c",
+      "repo": "farama-minari/Walker2d-v5-SAC-medium",
+      "revision": "34849cc1de5a527889798837a744dd55c52edef6",
+      "license": "Not declared in inspected metadata",
+      "task_group": "locomotion"
+    },
+    {
+      "url": "https://huggingface.co/farama-minari/HalfCheetah-v5-SAC-expert/resolve/8ac63b9fd8aa94c9c637a928ce1147600403d3d4/halfcheetah-v5-sac-expert.zip",
+      "path": "assets/HalfCheetah-v5-SAC-expert.zip",
+      "bytes": 3239732,
+      "sha256": "b6c58809924077a8c2607f17965040611e58731c554c72f1918343be24284806",
+      "repo": "farama-minari/HalfCheetah-v5-SAC-expert",
+      "revision": "8ac63b9fd8aa94c9c637a928ce1147600403d3d4",
+      "license": "Not declared in inspected metadata",
+      "task_group": "locomotion"
+    },
+    {
+      "url": "https://huggingface.co/farama-minari/HalfCheetah-v5-SAC-medium/resolve/55b89163983483278749c84454776af108316688/halfcheetah-v5-sac-medium.zip",
+      "path": "assets/HalfCheetah-v5-SAC-medium.zip",
+      "bytes": 3239734,
+      "sha256": "d3d54f4b4062cb4c368338c1fbd4e69252179c2b29f4e1ee15d48489a151546d",
+      "repo": "farama-minari/HalfCheetah-v5-SAC-medium",
+      "revision": "55b89163983483278749c84454776af108316688",
+      "license": "Not declared in inspected metadata",
+      "task_group": "locomotion"
+    },
+    {
+      "url": "https://diffusion-policy.cs.columbia.edu/data/experiments/low_dim/pusht/diffusion_policy_transformer/train_0/checkpoints/epoch%3D0850-test_mean_score%3D0.967.ckpt",
+      "path": "assets/pusht_transformer.ckpt",
+      "bytes": 143687633,
+      "sha256": "fa302d345467ef5927d60f3fd7cdd222e1ee8fda52216ca64323a08e2ce700a8",
+      "revision": "Author release: train_0, epoch 0850; no server version identifier; pinned by SHA256",
+      "license": "No checkpoint-specific license found in the release listing. Source repository is MIT; no separate weights grant is assumed.",
+      "task_group": "pusht"
+    },
+    {
+      "task_group": "pendulum",
+      "path": "assets/td3-Pendulum-v1.zip",
+      "url": "https://huggingface.co/sb3/td3-Pendulum-v1/resolve/f200e871a887a68eec2265f1c6ff366cfbf40ea8/td3-Pendulum-v1.zip",
+      "revision": "f200e871a887a68eec2265f1c6ff366cfbf40ea8",
+      "sha256": "9597e5a20703d74786afc8e5f48d98b378816ad8743ee62e2a278483bc565823",
+      "license": "No checkpoint-specific license declared; fetch from source, do not bundle."
+    }
+  ],
+  "pusht_source": {
+    "url": "https://github.com/real-stanford/diffusion_policy",
+    "revision": "5ba07ac6661db573af695b419a7947ecb704690f",
+    "license": "MIT",
+    "license_file": "vendor/diffusion_policy/LICENSE",
+    "file_hashes": "records/vendor_hashes.json"
+  }
+}

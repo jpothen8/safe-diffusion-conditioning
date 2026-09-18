@@ -1,6 +1,8 @@
 """Explicit project paths, asset provenance and protected output directories."""
+
 import hashlib
 import json
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -37,7 +39,9 @@ def lock_inputs(output, files, config):
     manifest = {
         "utc": datetime.now(timezone.utc).isoformat(),
         "config": config,
-        "sha256": {str(Path(p).resolve().relative_to(PROJECT)): sha256(p) for p in files},
+        "sha256": {
+            str(Path(p).resolve().relative_to(PROJECT)): sha256(p) for p in files
+        },
     }
     write_json(Path(output) / "lock.json", manifest)
     return manifest
@@ -46,11 +50,27 @@ def lock_inputs(output, files, config):
 def verify_lock(path):
     manifest = read_json(path)
     for name, digest in manifest["sha256"].items():
-        if sha256(PROJECT / name) != digest:
-            raise ValueError(f"Locked input changed: {name}")
+        current = recorded_path(name)
+        if current.is_file() and sha256(current) == digest:
+            continue
+        # Historical source remains in version control instead of a redundant
+        # live implementation. New-run locks still require their exact hashes.
+        saved = subprocess.run(
+            ["git", "show", f"pre-consolidation:{name}"],
+            cwd=PROJECT,
+            capture_output=True,
+        )
+        if saved.returncode or hashlib.sha256(saved.stdout).hexdigest() != digest:
+            raise ValueError(f"Locked input unavailable or changed: {name}")
     return len(manifest["sha256"])
 
 
-def expert_path(task, level="expert"):
-    return PROJECT / "round3/assets" / f"{task}-v5-SAC-{level}.zip"
+def recorded_path(name):
+    """Resolve historical artifact paths without modifying recorded results."""
+    migration = PROJECT / "records/path_migration.json"
+    paths = read_json(migration)["paths"] if migration.exists() else {}
+    return PROJECT / paths.get(str(name), str(name))
 
+
+def expert_path(task, level="expert"):
+    return PROJECT / "assets" / f"{task}-v5-SAC-{level}.zip"

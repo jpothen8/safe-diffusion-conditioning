@@ -1,9 +1,0 @@
-{
-  "states": 64, "replicates": 8, "budget": 64,
-  "state_seed": 96000, "proposal_seed": 97000,
-  "refinement_seed": 98000, "bayesfp_seed": 99000,
-  "bootstrap_seed": 100000, "bootstrap_draws": 20000,
-  "bayesfp_strength": 20, "bayesfp_particles": [32, 12],
-  "minimum_useful_vs_projection": 25, "minimum_useful_vs_bayesfp": 5,
-  "horizon_seconds": 0.6, "evaluation_seconds": 10
-}

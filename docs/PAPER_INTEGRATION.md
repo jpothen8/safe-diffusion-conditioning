@@ -1,6 +1,6 @@
 # Current paper integration
 
-Use [the original experimental section](../round3/paper_experiments.tex) and [tables](../round3/paper_results.tex), then append the generated [independent-model replication subsection](../results/halfcheetah_replication/paper_replication.tex). The earlier [integration guide](../round3/PAPER_INTEGRATION.md) remains useful for notation and theorem limitations, but its proposed replication is now completed.
+Use [the original experimental section](paper/pilot_experiments.tex) and [tables](paper/pilot_results.tex), then append the generated [independent-model replication subsection](../results/halfcheetah_replication/paper_replication.tex). The independent-model replication is complete; use the current results below when revising claims.
 
 The new subsection should immediately follow the original HalfCheetah result. Report both the original +30.61 one-model estimate and the independent-model estimate **+16.88**, 95% model/state interval **[6.06,28.29]**. State explicitly that the mean did not meet the unchanged **26.19** useful-effect threshold. Seven of eight model means favor refinement; one favors repaired BayesFP. Do not describe this as replication of the stronger useful-effect claim.
 

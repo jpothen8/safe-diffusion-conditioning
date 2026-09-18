@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "package_modules": 32,
+  "unchanged_historical_summary_files": 40,
+  "current_files_inspected": 401,
+  "historical_files_inspected": 502,
+  "local_document_links_checked": 114,
+  "separate_round_directory_removed": true,
+  "separate_root_src_removed": true,
+  "one_environment_and_dependency_lock": true,
+  "credential_pattern_scan_current_and_history_passed": true,
+  "no_external_checkpoints_or_raw_release_data_in_git": true
+}

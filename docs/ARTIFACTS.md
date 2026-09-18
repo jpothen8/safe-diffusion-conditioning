@@ -1,28 +1,18 @@
-# Artifact index
+# Evidence and provenance
 
-| Study | Protocol | Results | Implementation status |
-|---|---|---|---|
-| Original released Push-T pilot | [FIRST_EXPERIMENT.md](../FIRST_EXPERIMENT.md) | [Retained report](history/2026-09-14_RESULTS.md), `results/heldout/` | Frozen root `src/` drivers |
-| Pendulum target/refinement confirmation | [PENDULUM_CONFIRMATION.md](../PENDULUM_CONFIRMATION.md) | [ROUND2_RESULTS.md](../ROUND2_RESULTS.md), `results/pendulum/confirmation/` | Frozen root `src/pendulum*.py` |
-| Fresh Pendulum versus BayesFP | [Round3 Pendulum protocol](../round3/PENDULUM_PROTOCOL.md) | [Round3 report](../round3/RESULTS.md), `round3/results/pendulum_comparison/` | Frozen `round3/src/` |
-| Walker2d/HalfCheetah pilot | [Round3 locomotion protocol](../round3/LOCOMOTION_PROTOCOL.md) | [Round3 report](../round3/RESULTS.md), `round3/results/*_comparison/` | Frozen `round3/src/` |
-| Eight-model HalfCheetah replication | [New protocol](HALFCHEETAH_REPLICATION.md) | [Full report](../results/halfcheetah_replication/RESULTS.md), [audit](../results/halfcheetah_replication/audit.json) | Maintained `safety_conditioning/` package |
-| Safe-set error sensitivity | [Fixed exploratory grid](SAFE_SET_MISMATCH.md) | [Report](../results/safe_set_mismatch/RESULTS.md), [audit](../results/safe_set_mismatch/audit.json), [figure](../results/safe_set_mismatch/boundary_sensitivity.pdf) | `mismatch.py`, `mismatch_diagnostics.py`; original actions plus conservative-control rollouts |
+The root [RESULTS.md](../RESULTS.md) consolidates the conclusions. Per-experiment records retain all positive, negative and inconclusive findings.
 
-The [current RESULTS.md](../RESULTS.md) is the evidence overview. Earlier positive, negative, failed-fit and precision-correction records remain intact. The original protocol locks still point to their original paths; nothing was silently moved or overwritten to make the refactor pass.
+| Experiment | Protocol | Numerical results |
+|---|---|---|
+| Released Push-T policy | [FIRST_EXPERIMENT.md](../FIRST_EXPERIMENT.md) | [Report](../results/heldout/RESULTS.md), [summary](../results/heldout/summary.json) |
+| Pendulum confirmation | [Protocol](protocols/pendulum_confirmation.md) | [Report](../results/pendulum/RESULTS.md), [summary](../results/pendulum/confirmation/summary.json) |
+| Fresh Pendulum / BayesFP | [Protocol](protocols/pendulum_bayesfp.md) | [Summary](../results/pendulum_comparison/summary.json) |
+| Walker2d and HalfCheetah pilots | [Protocol](protocols/locomotion_pilot.md) | [Walker](../results/Walker2d_comparison/summary.json), [HalfCheetah](../results/HalfCheetah_comparison/summary.json) |
+| Eight-model HalfCheetah replication | [Protocol](protocols/halfcheetah_replication.md) | [Report](../results/halfcheetah_replication/RESULTS.md), [audit](../results/halfcheetah_replication/audit.json) |
+| Supplied-safe-set error | [Exploratory protocol](protocols/safe_set_mismatch.md) | [Report](../results/safe_set_mismatch/RESULTS.md), [audit](../results/safe_set_mismatch/audit.json) |
 
-Public assets and environment:
+Public external weights are described in [assets.json](../records/assets.json); they are downloaded with hashes, never bundled in the repository or research release. The release contains generated episodes, our trained diffusion weights and raw arrays for the reported experiments. The [reproduction guide](REPRODUCTION.md) explains restoration and regeneration.
 
-- [Original asset manifest](../records/asset_manifest.json), [Pendulum assets](../records/followup_assets.json), [modern MuJoCo/BayesFP sources](../round3/records/assets.json).
-- [Original host inspection](../records/host.json), [replication host inspection](../records/replication_host.json).
-- [Parent dependency lock](../requirements.lock.txt), [active overlay lock](../round3/requirements.lock.txt), [package metadata](../pyproject.toml).
-- Checkpoint license declarations missing from model metadata remain recorded as missing. Public access does not imply permission to redistribute weights.
+[requirements.lock.txt](../requirements.lock.txt) is the single tested environment. [path_migration.json](../records/path_migration.json) resolves old artifact names. The `pre-consolidation` Git tag contains exact old scientific source/protocol bytes. No original proposal or failed outcome was dropped by moving files; duplicate reruns and dependency caches are not publication assets.
 
-New verification:
-
-- [Numerical refactor compatibility](../records/consolidation_checks.json): base DDPM, refinement, BayesFP particles and native rollouts match frozen code bit for bit on both locomotion tasks.
-- [Collection reproduction](../results/collection_reproduction/audit.json): the complete 128-episode HalfCheetah archive matches the original bytes.
-- [Eight-model audit](../results/halfcheetah_replication/audit.json): source/asset/checkpoint hashes, first-feasible selection, global projection, normalizers, bootstrap and native replay.
-- [Consolidation record](CONSOLIDATION.md) explains the package layout and historical compatibility.
-
-The generated [paper replication text](../results/halfcheetah_replication/paper_replication.tex), [CSV](../results/halfcheetah_replication/table.csv) and [figure](../results/halfcheetah_replication/model_comparison.pdf) come from saved numerical results. The [paper integration guide](PAPER_INTEGRATION.md) describes their placement alongside the original experimental section.
+The [combined paper preview](paper_preview/experiments.pdf) contains the original pilot, all-model replication and exploratory boundary-error result. Its [integration guide](PAPER_INTEGRATION.md) states the allowed claims and limitations.

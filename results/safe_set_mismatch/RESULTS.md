@@ -33,7 +33,7 @@ An inward boundary error can turn an atom of projected boundary mass into violat
 
 This probe tests a controlled uniform cap bias, not whether most projection harm in robotics is caused by estimation error. The next dynamic-constraint experiment should perturb a simulator-based clearance/velocity/posture estimate and evaluate the true predicate, including projection with calibrated margins and the same uncertainty information for every arm.
 
-[Fixed exploratory protocol](../../docs/SAFE_SET_MISMATCH.md) · [All errors, violations and excess magnitudes](summary.json) · [Source hashes](lock.json)
+[Fixed exploratory protocol](../../docs/protocols/safe_set_mismatch.md) · [All errors, violations and excess magnitudes](summary.json) · [Source hashes](lock.json)
 
 ## Violation uncertainty and magnitude
 

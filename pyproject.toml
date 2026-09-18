@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "safety-conditioning"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reproducible conditioning, projection and safe diffusion experiments"
 requires-python = ">=3.12,<3.13"
 dependencies = [
@@ -17,6 +17,5 @@ dependencies = [
 [project.scripts]
 safety-conditioning = "safety_conditioning.cli:main"
 
-[tool.setuptools]
-packages = ["safety_conditioning"]
-
+[tool.setuptools.packages.find]
+include = ["safety_conditioning*"]
