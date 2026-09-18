@@ -109,6 +109,11 @@ def main():
                 destination.exists()
                 or destination.resolve() == PROJECT / "records/repository_audit.json"
             ), (path, link)
+            assert str(destination.resolve().relative_to(PROJECT)) in tracked, (
+                path,
+                "Link target is not published in Git",
+                link,
+            )
             checked += 1
     report = {
         "passed": True,

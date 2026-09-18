@@ -23,7 +23,7 @@ A separately labeled **post-confirmation sensitivity check** reexecuted the same
 
 ![Held-out results](confirmation/comparison.png)
 
-[Animated examples](confirmation/examples.gif), [static examples during the restriction](confirmation/examples_at_0.55s.png), [PDF figure](confirmation/comparison.pdf), [SVG figure](confirmation/comparison.svg). Illustrations use the first proposal whose mean torque lies in the excluded coherent direction, without looking at its reward. All other trajectories remain in the raw records.
+[Animated examples](confirmation/examples.gif), [static examples during the restriction](confirmation/examples_at_0.55s.png), [PDF figure](confirmation/comparison.pdf), [SVG figure](confirmation/comparison.pdf). Illustrations use the first proposal whose mean torque lies in the excluded coherent direction, without looking at its reward. All other trajectories remain in the raw records.
 
 ## Why this example works
 
