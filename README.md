@@ -25,12 +25,11 @@ Recorded platform: Python 3.12, Linux x86_64, RTX 5070 Ti, PyTorch 2.7.1+cu128. 
 bash scripts/setup.sh
 ./run check
 ./run fetch-assets --task all
-./run fetch-results
-./run audit --input results/halfcheetah_replication
-./run audit --input results/safe_set_mismatch
 ```
 
-The check runs on CPU without downloaded weights. External RL/Push-T checkpoints are fetched from pinned public sources and checked by SHA256; they are not redistributed. The research release contains our generated data, diffusion checkpoints and raw experiment outputs, separate from Git. See [asset provenance](records/assets.json) and [third-party notices](THIRD_PARTY.md).
+The check runs on CPU without downloaded weights. External RL/Push-T checkpoints are fetched from pinned public sources and checked by SHA256; they are not redistributed. See [asset provenance](records/assets.json) and [third-party notices](THIRD_PARTY.md).
+
+The optional generated-data/model archive is prepared but **not yet published**. Its [manifest](records/release_artifact.json) records every file and hash. `./run fetch-results` will restore it once available. Until then, use the from-scratch collection/training commands in the [reproduction guide](docs/REPRODUCTION.md); saved-output audits require those local raw artifacts.
 
 ## Run experiments
 

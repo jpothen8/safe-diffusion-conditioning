@@ -6,10 +6,11 @@ Run commands from the repository root. Python 3.12, Linux x86_64 and the pinned 
 bash scripts/setup.sh
 ./run check
 ./run fetch-assets --task all
-./run fetch-results
 ```
 
-There is one environment, `.venv`. `fetch-assets` downloads only public author assets and the pinned Push-T source; choices are `locomotion`, `pendulum`, `pusht`, `all`. Existing mismatches are errors, never silently overwritten. `fetch-results` restores the generated research artifacts from the public release with a recorded archive hash. It does not include third-party checkpoint ZIPs or the Push-T checkpoint.
+There is one environment, `.venv`. `fetch-assets` downloads only public author assets and the pinned Push-T source; choices are `locomotion`, `pendulum`, `pusht`, `all`. Existing mismatches are errors, never silently overwritten.
+
+**Data availability:** the optional 663 MB generated-data/model archive is prepared but not yet published. Once available, `./run fetch-results` restores it with the recorded archive hash. It excludes third-party checkpoint ZIPs and the Push-T checkpoint. For now, use the collection/training steps below; the task reruns and saved-output audits need their corresponding local data/models.
 
 ## Reproduce the saved experiments
 
